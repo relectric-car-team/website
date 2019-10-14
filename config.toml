@@ -1,6 +1,6 @@
-baseURL = "https://kross.netlify.com"
+baseURL = "https://teamrelectric.ca"
 languageCode = "en-us"
-title = "Kross | Hugo Portfolio Template"
+title = "Relectric Car Team"
 theme = "kross-hugo-portfolio-template"
 summaryLength = "10"
 
