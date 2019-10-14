@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = git@github.com:relectric-car-team/relectric-car-team.github.io
+	branch = master
