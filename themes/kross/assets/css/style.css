@@ -5,6 +5,13 @@ VERSION: Versoin Number
 -------------------------------------------------------------------*/
 @import "https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:300,400,500,700";
 
+:root {
+  /* #41228e */
+  --main: #53687E;
+  --main-hover: #728395;
+  --fg-main: #748CAB;
+}
+
 @font-face {
   font-family: bwnistaint-xbd;
   src: url(../fonts/BwNistaInt-xBd.woff) format("woff");
@@ -118,33 +125,33 @@ h6,
 }
 
 .btn-primary {
-  background: #41228e;
+  background: var(--main);
   color: #fff
 }
 
 .btn-primary:active {
-  background: #542cb7 !important
+  background: var(--main-hover) !important
 }
 
 .btn-primary:hover {
-  background: #542cb7
+  background: var(--main-hover)
 }
 
 .btn-primary.focus,
 .btn-primary.active {
-  background: #542cb7 !important;
+  background: var(--main-hover) !important;
   box-shadow: none !important
 }
 
 .btn-transparent {
   background: transparent;
-  color: #41228e;
+  color: var(--main);
   font-weight: 700
 }
 
 .btn-transparent:active,
 .btn-transparent:hover {
-  color: #41228e
+  color: var(--main)
 }
 
 body {
@@ -153,7 +160,7 @@ body {
 }
 
 ::selection {
-  background: #542cb7;
+  background: var(--main-hover);
   color: #fff
 }
 
@@ -201,11 +208,11 @@ select:focus {
 }
 
 a.text-dark:hover {
-  color: #41228e !important
+  color: var(--main) !important
 }
 
 a:hover {
-  color: #41228e
+  color: var(--main)
 }
 
 .slick-slide {
@@ -252,7 +259,7 @@ a:hover {
 }
 
 .bg-primary {
-  background: #41228e !important
+  background: var(--main) !important;
 }
 
 .bg-gray {
@@ -260,7 +267,7 @@ a:hover {
 }
 
 .text-primary {
-  color: #41228e !important
+  color: var(--main) !important
 }
 
 .text-color {
@@ -392,7 +399,7 @@ a:hover {
 }
 
 .form-control:focus {
-  border-color: #41228e;
+  border-color: var(--main);
   outline: 0;
   box-shadow: none !important
 }
@@ -419,7 +426,7 @@ textarea.form-control {
 }
 
 .navigation.nav-bg {
-  background-color: #41228e;
+  background-color: var(--main);
   padding: 15px 100px
 }
 
@@ -432,7 +439,7 @@ textarea.form-control {
 @media(max-width:991px) {
   .navigation {
     padding: 20px;
-    background: #41228e
+    background: var(--main);
   }
 }
 
@@ -579,7 +586,7 @@ textarea.form-control {
 }
 
 .hover-bg-primary:hover {
-  background: #41228e
+  background: var(--main)
 }
 
 .hover-bg-primary:hover * {
@@ -588,7 +595,7 @@ textarea.form-control {
 
 .active-bg-primary {
   transition: .3s ease;
-  background: #41228e
+  background: var(--main)
 }
 
 .active-bg-primary * {
@@ -736,7 +743,7 @@ blockquote {
   display: inline-block;
   padding: 10px 20px;
   background: #eaeaea;
-  border-left: 2px solid #41228e;
+  border-left: 2px solid var(--main);
   font-style: italic;
   font-size: 22px
 }
@@ -828,7 +835,9 @@ blockquote {
   position: absolute;
   left: 0;
   bottom: 0;
-  width: 100%
+  width: 100%;
+
+  color: var(--fg-main);
 }
 
 .page-title .bg-shape-2 {
