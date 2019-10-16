@@ -55,9 +55,10 @@ logo = "images/logo.png"
 home = "Home"
 # Meta data
 description = "This is meta description"
-author = "Themefisher"
+author = "Relectric Car Team"
 # Google Analitycs
 googleAnalitycsID = "Your ID"
+debug = true
 
   # Preloader
   [params.preloader]
