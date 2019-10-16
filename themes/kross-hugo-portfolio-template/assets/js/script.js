@@ -41,6 +41,8 @@
 
     /* ########################################### hero parallax ############################################## */
     window.onload = function () {
+        // Only attempt show parallax on main page (gives errors on every other page :(  )
+        if (window.location.pathname !== '/') return;
 
         var parallaxBox = document.getElementById('parallax');
         var
