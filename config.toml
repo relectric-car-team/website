@@ -1,7 +1,7 @@
 baseURL = "https://teamrelectric.ca"
 languageCode = "en-us"
 title = "Relectric Car Team"
-theme = "kross-hugo-portfolio-template"
+theme = "kross"
 summaryLength = "10"
 
 # Plugins
