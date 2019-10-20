@@ -24,7 +24,7 @@ about:
 
 # skill
 skill:
-  enable : true
+  enable : false
   skillbar:
     - title : "Web Design"
       progress : "90%"
@@ -44,7 +44,7 @@ skill:
 
 # experience
 experience:
-  enable : true
+  enable : false
   item:
     - logo : "images/experience/icon-1.png"
       title : "Junior UX Designer"
@@ -63,7 +63,7 @@ experience:
 
 # education
 education:
-  enable : true
+  enable : false
   item:
     - title : "Marters in UX Design"
       year : "2006"
@@ -85,21 +85,25 @@ education:
 service:
   enable : true
   item :
-    - title : "UI Design"
+    - title : "Electrical-Mechanical"
       icon : "ti-palette"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      highlighted : false
+      highlighted : true
 
-    - title : "UX Design"
+    - title : "Software"
       icon : "ti-vector"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       highlighted : true
 
-    - title : "Interaction Design"
+    - title : "Geomatics"
       icon : "ti-panel"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      highlighted : false
+      highlighted : true
 
+    - title : "Business"
+      icon : "ti-panel"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      highlighted : true
 # portfolio
 portfolio:
   enable : true
@@ -174,4 +178,4 @@ clientSlider:
 
 # blog
 blog:
-  enable : true
+  enable : false
