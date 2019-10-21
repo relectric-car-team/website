@@ -1,0 +1,5 @@
+# Gallery items
+items:
+  - image : "images/portfolio/item-1.png"
+  - image : "images/portfolio/item-2.png"
+  - image : "images/portfolio/item-3.png"

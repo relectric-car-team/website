@@ -7,9 +7,13 @@ VERSION: Versoin Number
 
 :root {
   /* #41228e */
-  --main: #53687E;
+  /* --main: #53687E;
   --main-hover: #728395;
-  --fg-main: #748CAB;
+  --fg-main: #748CAB; */
+
+  --main: #355C7D;
+  --main-hover: #6C5B7B;
+  --fg-main: #6C5B7B;
 }
 
 @font-face {

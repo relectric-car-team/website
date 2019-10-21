@@ -149,43 +149,22 @@
   {{ end }}
 
 
-  {{ if .Site.Data.homepage.service.enable }}
-  <!-- services -->
+  <!-- {{ if .Site.Data.homepage.subteam.enable }}
+    {{ partial "subteams.html" . }}
+  {{ end }} -->
+
+
+  {{ if .Site.Data.homepage.projects.enable }}
+  <!-- projects -->
   <section class="section">
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
-          <h2 class="section-title">Services</h2>
-        </div>
-        {{ range .Site.Data.homepage.service.item }}
-        <div class="col-md-4 mb-4">
-          <div class="card {{if .highlighted }} active-bg-primary {{end}} hover-shadow shadow">
-            <div class="card-body text-center px-4 py-5">
-              <i class="{{.icon }} icon mb-5 d-inline-block"></i>
-              <h4 class="mb-4">{{.title}}</h4>
-              <p>{{.content | markdownify}}</p>
-            </div>
-          </div>
-        </div>
-        {{ end }}
-      </div>
-    </div>
-  </section>
-  <!-- /services -->
-  {{ end }}
-
-
-  {{ if .Site.Data.homepage.portfolio.enable }}
-  <!-- portfolio -->
-  <section class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 text-center">
-          <h2 class="section-title">Portfolio</h2>
+          <h2 class="section-title">Projects</h2>
         </div>
       </div>
       <div class="row shuffle-wrapper">
-        {{ range .Site.Data.homepage.portfolio.item }}
+        {{ range .Site.Data.homepage.projects.item }}
         <div class="col-lg-4 col-6 mb-4 shuffle-item">
           <div class="position-relative rounded hover-wrapper">
             <img src="{{.image | absURL }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
@@ -200,7 +179,7 @@
       </div>
     </div>
   </section>
-  <!-- /portfolio -->
+  <!-- /projects -->
   {{ end }}
 
 
@@ -242,7 +221,7 @@
   <!-- client logo slider -->
   <section class="section pb-0">
     <div class="container">
-      {{ partial "client-slider.html" . }}
+      {{ partial "sponsor-slider.html" . }}
     </div>
   </section>
   <!-- /client logo slider -->

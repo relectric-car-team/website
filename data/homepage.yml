@@ -81,8 +81,8 @@ education:
       year : "1998"
       academy : "Cardiff School"
 
-# service
-service:
+# Sub teams
+subteam:
   enable : true
   item :
     - title : "Electrical-Mechanical"
@@ -104,12 +104,13 @@ service:
       icon : "ti-panel"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       highlighted : true
-# portfolio
-portfolio:
+
+# projects
+projects:
   enable : true
   item:
     - image : "images/portfolio/item-1.png"
-      projectURL : "#"
+      projectURL : "projects/test"
 
     - image : "images/portfolio/item-2.png"
       projectURL : "#"
@@ -125,7 +126,7 @@ portfolio:
 
 # testimonial
 testimonial:
-  enable : true
+  enable : false
   item:
     - name : "Jesica Gomez"
       image : "images/testimonial/client-1.png"
@@ -142,8 +143,8 @@ testimonial:
       designation : "CEO, Funder"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 
-# client slider
-clientSlider:
+# sponsor slider
+sponsorSlider:
   enable : true
   item:
     - logo : "images/clients-logo/client-logo-1.png"

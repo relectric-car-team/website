@@ -3,15 +3,15 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h2 class="section-title">My Team</h2>
+        <h2 class="section-title">Our Team</h2>
       </div>
       {{ range .Site.Data.team.member }}
       <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
         <div class="card text-center">
           <img src="{{ .image | absURL }}" class="card-img-top">
           <div class="card-body">
-            <h4 class="card-title">{{.title }}</h4>
-            <p class="text-light font-secondary">{{.designation }}</p>
+            <h4 class="card-title">{{ .name }}</h4>
+            <p class="text-light font-secondary">{{ .role }}</p>
           </div>
         </div>
       </div>

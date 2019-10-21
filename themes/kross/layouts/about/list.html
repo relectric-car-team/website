@@ -40,17 +40,8 @@
 
   {{ partial "work-process.html" . }}
 
-  {{ partial "team.html" . }}
+  {{ partial "subteams.html" . }}
 
-  <section class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 text-center">
-          <h2 class="section-title">My Clients</h2>
-        </div>
-      </div>
-      {{ partial "client-slider.html" . }}
-    </div>
-  </section>
+  {{ partial "team.html" . }}
 
 {{ end }}
