@@ -11,7 +11,7 @@ VERSION: Versoin Number
   --main-hover: #728395;
   --fg-main: #748CAB; */
 
-  --main: #355C7D;
+  --main: #333333;
   --main-hover: #6C5B7B;
   --fg-main: #6C5B7B;
 }
@@ -351,7 +351,7 @@ a:hover {
 }
 
 .bg-dark {
-  background-color: #222 !important
+  background-color: #333333 !important
 }
 
 .icon {
@@ -425,7 +425,7 @@ textarea.form-control {
 }
 
 .navigation {
-  padding: 40px 130px;
+  padding: 20px 130px;
   transition: .3s ease
 }
 
@@ -798,7 +798,7 @@ blockquote {
 .page-title-alt .bg-shape-2 {
   position: absolute;
   left: 70px;
-  top: 100px
+  top: 150px
 }
 
 .page-title-alt .bg-shape-3 {
