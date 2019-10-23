@@ -4,6 +4,7 @@ PROJECT: Project Name
 VERSION: Versoin Number
 -------------------------------------------------------------------*/
 @import "https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:300,400,500,700";
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&display=swap');
 
 :root {
   /* #41228e */
@@ -16,16 +17,18 @@ VERSION: Versoin Number
   --fg-main: #6C5B7B;
 }
 
+
 @font-face {
-  font-family: bwnistaint-xbd;
+  /*font-family: bwnistaint-xbd;
   src: url(../fonts/BwNistaInt-xBd.woff) format("woff");
   font-style: normal;
-  font-display: swap
+  font-display: swap*/
+  font-family: "Quicksand", sans-serif;
 }
 
 body {
   line-height: 1.2;
-  font-family: roboto, sans-serif;
+  font-family: "Quicksand", sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 15px;
   color: #4c4c4c
@@ -36,7 +39,7 @@ p {
   color: #4c4c4c;
   font-size: 15px;
   line-height: 1.8;
-  font-family: roboto, sans-serif
+  font-family: "Quicksand", sans-serif
 }
 
 h1,
@@ -46,7 +49,7 @@ h4,
 h5,
 h6 {
   color: #000;
-  font-family: playfair display, serif;
+  font-family: "Quicksand", sans-serif !important;
   line-height: 1.2
 }
 
@@ -98,7 +101,7 @@ h6,
 
 .btn {
   font-size: 22px;
-  font-family: playfair display, serif;
+  font-family: "Quicksand", sans-serif;
   text-transform: capitalize;
   padding: 16px 44px;
   border-radius: 5px;
@@ -230,7 +233,7 @@ a:hover {
 
 .section-title {
   margin-bottom: 80px;
-  font-family: bwnistaint-xbd
+  font-family: "Quicksand", sans-serif;
 }
 
 .bg-cover {
@@ -339,11 +342,12 @@ a:hover {
 }
 
 .font-secondary {
-  font-family: playfair display, serif !important
+  font-family: "Quicksand", sans-serif !important;
 }
 
 .font-tertiary {
-  font-family: bwnistaint-xbd !important
+  font-family: "Quicksand", sans-serif !important;
+  font-weight: bold;
 }
 
 .shadow {
@@ -426,12 +430,14 @@ textarea.form-control {
 
 .navigation {
   padding: 20px 130px;
-  transition: .3s ease
+  transition: .3s ease;
+  opacity: 0.9;
 }
 
 .navigation.nav-bg {
   background-color: var(--main);
-  padding: 0px 100px 0px
+  padding: 0px 100px 0px;
+  opacity: 0.90;
 }
 
 @media(max-width:991px) {
@@ -448,7 +454,7 @@ textarea.form-control {
 }
 
 .navbar .nav-item .nav-link {
-  font-family: bwnistaint-xbd;
+  font-family: "Quicksand", sans-serif;
   text-transform: uppercase;
   padding: 15px
 }
@@ -757,7 +763,7 @@ blockquote {
 }
 
 .content strong {
-  font-family: playfair display, serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 22px;
   font-weight: 400;
   color: #000;
