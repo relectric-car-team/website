@@ -1,0 +1,15 @@
+# Sponsors
+list:
+  - name: "Gold"
+    children:
+      - logo: "Test"
+      - logo: "adsf"
+    
+  - name: "Silver"
+    children:
+      - logo: "another test"
+      - logo: "more test"
+  
+  - name: "Bronze"
+    children:
+      - logo: "asdfa"

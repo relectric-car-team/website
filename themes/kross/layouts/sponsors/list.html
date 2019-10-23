@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
+  {{ range .Site.Data.sponsors.list }}
+
+    <h1>{{ .name }}</h1>
+
+    {{ range .children }}
+      <p>{{ .logo }}</p>
+    {{ end }}
+
+    <br/>
+
+  {{ end }}
+
+{{ end }}
