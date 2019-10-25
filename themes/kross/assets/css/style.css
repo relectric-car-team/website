@@ -501,13 +501,13 @@ textarea.form-control {
 }
 
 #l3 {
-  top: 200px;
+  top: 100px;
   left: 40%
 }
 
 #l4 {
   top: 200px;
-  right: 40%
+  right: 10%
 }
 
 #l5 {
@@ -517,17 +517,17 @@ textarea.form-control {
 
 #l6 {
   bottom: -20px;
-  left: 10%
+  left: 5%
 }
 
 #l7 {
-  bottom: 100px;
-  left: 20%
+  bottom: 120px;
+  left: 25%
 }
 
 #l8 {
-  bottom: 160px;
-  right: 45%
+  bottom: 40px;
+  right: 30%
 }
 
 #l9 {
@@ -896,6 +896,8 @@ blockquote {
   font-weight: 700
 }
 
+/* Some dank custom classes */
+
 .social-link {
   opacity: 1;
   font-size: 20px;
@@ -904,4 +906,9 @@ blockquote {
 
 .social-link:hover {
   opacity: 0.7;
+}
+
+.project-title {
+  color: white;
+  font-size: 20px;
 }

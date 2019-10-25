@@ -13,28 +13,28 @@
       <img class="img-fluid w-100" src="{{`images/illustrations/leaf-bg.svg` | relURL}}" alt="bg-shape">
     </div>
     <div class="layer" id="l2">
-      <img src="{{`images/illustrations/dots-cyan.svg` | relURL}}" alt="bg-shape">
+      <img width="150px" height="150px" src="{{`images/illustrations/circuit-board.png` | relURL}}" alt="bg-shape">
     </div>
     <div class="layer" id="l3">
-      <img src="{{`images/illustrations/leaf-orange.svg` | relURL}}" alt="bg-shape">
+      <img width="150px" height="150px" src="{{`images/illustrations/chip.png` | relURL}}" alt="bg-shape">
     </div>
     <div class="layer" id="l4">
-      <img src="{{`images/illustrations/dots-orange.svg` | relURL}}" alt="bg-shape">
+      <img width="150px" height="150px" src="{{`images/illustrations/battery.png` | relURL}}" alt="bg-shape">
     </div>
     <div class="layer" id="l5">
-      <img src="{{`images/illustrations/leaf-yellow.svg` | relURL}}" alt="bg-shape">
+      <img width="150px" height="150px" src="{{`images/illustrations/led.png` | relURL}}" alt="bg-shape">
     </div>
     <div class="layer" id="l6">
-      <img src="{{`images/illustrations/leaf-cyan.svg` | relURL}}" alt="bg-shape">
+      <img width="150px" height="150px" src="{{`images/illustrations/transistor.png` | relURL}}" alt="bg-shape">
     </div>
     <div class="layer" id="l7">
-      <img src="{{`images/illustrations/dots-group-orange.svg` | relURL}}" alt="bg-shape">
+      <img width="150px" height="150px" src="{{`images/illustrations/battery.png` | relURL}}" alt="bg-shape">
     </div>
     <div class="layer" id="l8">
-      <img src="{{`images/illustrations/leaf-pink-round.svg` | relURL}}" alt="bg-shape">
+      <img width="150px" height="150px" src="{{`images/illustrations/circuit-board.png` | relURL}}" alt="bg-shape">
     </div>
     <div class="layer" id="l9">
-      <img src="{{`images/illustrations/leaf-cyan-2.svg` | relURL}}" alt="bg-shape">
+      <img width="150px" height="150px" src="{{`images/illustrations/led.png` | relURL}}" alt="bg-shape">
     </div>
     <!-- social icon -->
     <ul class="list-unstyled ml-5 mt-3 position-relative zindex-1">
@@ -154,34 +154,7 @@
   {{ end }} -->
 
 
-  {{ if .Site.Data.homepage.projects.enable }}
-  <!-- projects -->
-  <section class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 text-center">
-          <h2 class="section-title">Projects</h2>
-        </div>
-      </div>
-      <div class="row shuffle-wrapper">
-        {{ range .Site.Data.homepage.projects.item }}
-        <div class="col-lg-4 col-6 mb-4 shuffle-item">
-          <div class="position-relative rounded hover-wrapper">
-            <img src="{{.image | absURL }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
-            <div class="hover-overlay">
-              <div class="hover-content">
-                <a class="btn btn-light btn-sm" href="{{ .projectURL }}">view project</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        {{ end }}
-      </div>
-    </div>
-  </section>
-  <!-- /projects -->
-  {{ end }}
-
+  {{ partial "projects.html" . }}
 
   {{ if .Site.Data.homepage.testimonial.enable }}
   <!-- testimonial -->

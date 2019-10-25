@@ -1,4 +1,25 @@
-member:
+subteams:
+  - title : "Electrical-Mechanical"
+    icon : "ti-palette"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    highlighted : true
+
+  - title : "Software"
+    icon : "ti-vector"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    highlighted : true
+
+  - title : "Geomatics"
+    icon : "ti-panel"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    highlighted : true
+
+  - title : "Business"
+    icon : "ti-panel"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    highlighted : true
+
+members:
   - name: "Jack Schenziwe"
     image: "images/team/member-1.png"
     role: "Project Manager"

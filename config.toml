@@ -35,9 +35,14 @@ summaryLength = "10"
   weight = 2
 
   [[menu.main]]
+  name = "Team"
+  url = "team"
+  weight = 3
+
+  [[menu.main]]
   name = "Sponsors"
   URL = "sponsors"
-  weight = 3
+  weight = 4
 
   [[menu.main]]
   name = "Gallery"

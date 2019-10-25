@@ -1,15 +1,22 @@
 # Sponsors
 list:
-  - name: "Gold"
+  - category: "Gold"
     children:
-      - logo: "Test"
-      - logo: "adsf"
+      - logo: "images/clients-logo/client-logo-1.png"
+        URL: ""
+
+      - logo: "images/about/author.jpg"
+        URL: ""
     
-  - name: "Silver"
+  - category: "Silver"
     children:
-      - logo: "another test"
-      - logo: "more test"
+      - logo: "images/clients-logo/client-logo-3.png"
+        URL: ""
+
+      - logo: "images/clients-logo/client-logo-4.png"
+        URL: ""
   
-  - name: "Bronze"
+  - category: "Bronze"
     children:
-      - logo: "asdfa"
+      - logo: "images/clients-logo/client-logo-5.png"
+        URL: ""
