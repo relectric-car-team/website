@@ -1,5 +1,10 @@
-<div class="client-logo-slider d-flex align-items-center">
-  {{ range .Site.Data.homepage.sponsorSlider.item }}
-  <a href="{{ .URL }}" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid" src="{{.logo | absURL}}" alt="client-logo"></a>
-  {{ end }}
+<div class="sponsor-slider">
+  <p class="sponsor-category">{{ .category }}</p>
+  <div class="sponsor-images">
+    {{ range .children }}
+      <a href="" class="sponsor-item">
+        <img class="sponsor-logo" src="{{ .logo | absURL }}">
+      </a>
+    {{ end }}
+  </div>
 </div>

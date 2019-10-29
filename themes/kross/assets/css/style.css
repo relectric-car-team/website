@@ -14,7 +14,7 @@ VERSION: Versoin Number
   --fg-main: #748CAB; */
 
   --main: #333333;
-  --main-hover: #6C5B7B;
+  --main-hover: #505050;
   --fg-main: #6C5B7B;
 }
 
@@ -896,7 +896,7 @@ blockquote {
   font-weight: 700
 }
 
-/* Some dank custom classes */
+/* Some custom classes */
 
 .social-link {
   opacity: 1;
@@ -911,4 +911,28 @@ blockquote {
 .project-title {
   color: white;
   font-size: 20px;
+}
+
+.sponsor-slider {
+  margin: 15px auto 125px auto;
+}
+
+.sponsor-category {
+  text-align: center;
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+.sponsor-images {
+  width: fit-content;
+  margin: 10px auto;
+}
+
+.sponsor-item {
+  margin: 0px 20px;
+}
+
+.sponsor-logo {
+  max-width: 150px;
+  max-height: 150px;
 }
