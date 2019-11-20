@@ -2,13 +2,13 @@
 title: "About"
 date: 2019-05-12T12:14:34+06:00
 description: "This is meta description."
-author : "Johnathan Smith"
+author : "Ratik Kapoor"
 authorImage : "images/about/author.jpg"
 authorSignature : "images/about/signature.png"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Relectric Car Team was launched in 2019 in order to research affordable high-performance electric vehicles (EVs). Our team provides students an opportunity to gain technical engineering experience in an environment where collaboration is heavily encouraged.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+Currently, EVs are relatively expensive and difficult to find on the used car market. Our team aims to convert existing cars for a fraction of the price of a new vehicle, without sacrificing quality or features. Additionally, we strive to simplify user experience through software and create a unified experience that rivals modern cars.
 
-Deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.
+Our team also is passionate about raising awareness about the potential that electric cars have in a carbon-neutral future. Relectric is dedicated to accelerating the advancement of sustainable transport, while making this technology more accessible.
