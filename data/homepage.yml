@@ -17,7 +17,7 @@ banner:
 # about
 about:
   enable: true
-  content: "Our mission is to raise awareness about the adverse affects of carbon emmissions by creating high performance electric vehicles. We strive to make electric car technology affordable to everyone by converting old cars!"
+  content: "Our mission is to raise awareness about the adverse effects of carbon emissions by converting existing gasoline cars into high quality, affordable electric vehicles"
   button:
     btnText: "Learn More"
     URL: "/about"
