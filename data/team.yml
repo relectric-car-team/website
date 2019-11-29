@@ -1,33 +1,33 @@
 subteams:
   - title : "Electrical-Mechanical"
     icon : "ti-palette"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content : "Our Electric-Mechanical team works together to convert a gasoline car into a clean energy electric car. They will essentially remove the engine and all the components that support a gasoline system. This will all be replaced with a battery with electric components attached to a motor. The focus of this team will be innovate used cars by revamping it into a high performance electric vehicle."
     highlighted : true
 
   - title : "Software"
     icon : "ti-vector"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content : "For the software team, the main objective is to bridge the car’s system to the driver. The information from the car will be interpreted by the software team to display on the driver’s dashboard. They will be working with the Electrical-Mechanical team to receive important measurements, and display relevant information. They will also create a user interface system that provides an integrated environment for the user to have access to all the tools they need."
     highlighted : true
 
   - title : "Geomatics"
     icon : "ti-panel"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content : "The overarching project of the Geomatics Team is to create a framework for all the car measurements, such as speed, location, incline, and other geospatial properties. In addition to this, they equip the car with sensors that would allow for autonomous driving features, such as lane departure warnings, blind spot detection, and parking assistance. They also analyze how car sounds respond to different aspects of driving in order to create an algorithm that creates fake engine noise based on speed and acceleration."
     highlighted : true
 
   - title : "Business"
     icon : "ti-panel"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content : "The business team will be working on managing the funds like cash flow and budgeting.  This team will also be working on managing relationships between companies supporting clean energy, and recruiting sponsorship opportunities. They will also work on coordinating events for marketing and promoting our club to raise awareness about sustainability. "
     highlighted : true
 
 members:
   - name: "Jack Schenziwe"
     image: "images/team/member-1.png"
     role: "Project Manager"
-    
+
   - name: "Julias Carlie"
     image: "images/team/member-2.png"
     role: "Web Developer"
-    
+
   - name: "John Doe"
     image: "images/team/member-3.png"
     role: "Designer"
