@@ -2,21 +2,8 @@
 list:
   - category: "Gold"
     children:
-      - logo: "images/clients-logo/client-logo-1.png"
-        URL: "http://www.google.com"
+      - logo: "images/sponsors/go-electric.png"
+        URL: "https://goelectricyyc.com/"
 
-      - logo: "images/about/author.jpg"
-        URL: ""
-    
-  - category: "Silver"
-    children:
-      - logo: "images/clients-logo/client-logo-3.png"
-        URL: ""
-
-      - logo: "images/clients-logo/client-logo-4.png"
-        URL: ""
-  
-  - category: "Bronze"
-    children:
-      - logo: "images/clients-logo/client-logo-5.png"
-        URL: ""
+      - logo: "images/sponsors/schulich.png"
+        URL: "https://schulich.ucalgary.ca/"

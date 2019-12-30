@@ -20,14 +20,38 @@ subteams:
     highlighted : true
 
 members:
-  - name: "Jack Schenziwe"
-    image: "images/team/member-1.png"
-    role: "Project Manager"
+  - name: "Ratik Kapoor"
+    image: "images/team/ratik-k.jpg"
+    role: "Team Lead"
 
-  - name: "Julias Carlie"
-    image: "images/team/member-2.png"
-    role: "Web Developer"
+  - name: "Rahul Duggi"
+    image: "images/team/rahul-d.jpeg"
+    role: "Mechanical/Electrical Lead"
 
-  - name: "John Doe"
+  - name: "Amrit Mahendrarajah"
+    image: "images/team/amrit-m.jpg"
+    role: "Battery Lead"
+
+  - name: "Daunte Sutherland"
+    image: "images/team/daunte-s.jpg"
+    role: "Mechanical Lead"
+
+  - name: "Elize Tran"
+    image: "images/team/elize-t.jpeg"
+    role: "Software Lead"
+
+  - name: "Baylee Cheung"
     image: "images/team/member-3.png"
-    role: "Designer"
+    role: "User Interface Lead"
+  
+  - name: "Radu Schirliu"
+    image: "images/team/member-3.png"
+    role: "Systems Lead"
+  
+  - name: "Matthew Ding"
+    image: "images/team/matthew-d.jpeg"
+    role: "Business Lead"
+  
+  - name: "Hannah Poon"
+    image: "images/team/hannah-p.jpeg"
+    role: "Geomatics Lead"

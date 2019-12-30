@@ -2,17 +2,14 @@
 banner:
   title: "Relectric Car Team"
   socialLinks:
-    - icon: "ti-facebook"
-      URL: "#"
+    # - icon: "ti-facebook"
+    #   URL: "#"
 
     - icon: "ti-instagram"
-      URL: "#"
-
-    # - icon: "ti-dribbble"
-    #   URL: "#"
-
-    # - icon: "ti-twitter"
-    #   URL: "#"
+      URL: "https://www.instagram.com/teamrelectric/"
+    
+    - icon: "ti-linkedin"
+      URL: "https://www.linkedin.com/company/28557275"
 
 # about
 about:
