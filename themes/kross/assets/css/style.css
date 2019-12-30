@@ -59,7 +59,7 @@ h1,
   font-size: 80px
 }
 
-@media(max-width:991px) {
+@media (max-width:991px) {
 
   h1,
   .h1 {
@@ -72,7 +72,7 @@ h2,
   font-size: 60px
 }
 
-@media(max-width:991px) {
+@media (max-width:991px) {
 
   h2,
   .h2 {
@@ -441,13 +441,13 @@ textarea.form-control {
   opacity: 0.90;
 }
 
-@media(max-width:991px) {
+@media (max-width: 991px) {
   .navigation.nav-bg {
-    padding: 15px 20px
+    padding: 0px 20px
   }
 }
 
-@media(max-width:991px) {
+@media (max-width: 991px) {
   .navigation {
     padding: 20px;
     background: var(--main);
@@ -468,12 +468,17 @@ textarea.form-control {
   color: #fff
 }
 
+.navbar {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 .hero-area {
   padding: 250px 0 200px;
   position: relative
 }
 
-@media(max-width:767px) {
+@media (max-width: 767px) {
   .hero-area {
     padding: 200px 0 150px;
     overflow: hidden
@@ -744,7 +749,7 @@ textarea.form-control {
   align-items: center
 }
 
-@media(max-width:991px) {
+@media (max-width: 991px) {
   .card-lg {
     flex-direction: column
   }
@@ -784,7 +789,7 @@ blockquote {
   margin-top: -230px
 }
 
-@media(max-width:991px) {
+@media (max-width:991px) {
   .drag-lg-top {
     margin-top: 0
   }
@@ -930,6 +935,10 @@ blockquote {
 
 .sponsor-item {
   margin: 0px 20px;
+}
+
+.sponsor-item:hover {
+  opacity: 0.8;
 }
 
 .sponsor-logo {

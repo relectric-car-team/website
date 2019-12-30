@@ -30,6 +30,11 @@ summaryLength = "10"
 [menu]
 
   [[menu.main]]
+  name="Home"
+  URL=""
+  weight=1
+
+  [[menu.main]]
   name = "About"
   URL = "about"
   weight = 2
@@ -71,7 +76,7 @@ debug = true
 
   [params.contact]
   enable = true
-  formAction = "#" #contact form works with formspree.io
+  formAction = "https://formspree.io/mwkvwrlg" #contact form works with formspree.io
 
   [params.footer]
   email = "info@teamrelectric.ca"

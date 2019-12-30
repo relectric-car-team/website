@@ -22,7 +22,25 @@ about:
     btnText: "Learn More"
     URL: "/about"
 
-# skill
+# projects
+projects:
+  - title: "A great project"
+    image: "images/portfolio/item-1.png"
+    URL: "projects/test"
+
+  - image: "images/portfolio/item-2.png"
+    URL: "#"
+
+  - image: "images/portfolio/item-3.png"
+    URL: "#"
+
+  - image: "images/portfolio/item-4.png"
+    URL: "#"
+
+  - image: "images/portfolio/item-5.png"
+    URL: "#"
+
+# skill (unused)
 skill:
   enable: false
   skillbar:
@@ -42,7 +60,7 @@ skill:
       progress: "70%"
       color: "#ffbcaa"
 
-# experience
+# experience (unused)
 experience:
   enable: false
   item:
@@ -61,7 +79,7 @@ experience:
       company: "THEMEFISHER"
       duration: "Sep 2014 - Present"
 
-# education
+# education (unused)
 education:
   enable: false
   item:
@@ -81,25 +99,7 @@ education:
       year: "1998"
       academy: "Cardiff School"
 
-# projects
-projects:
-  - title: "A great project"
-    image: "images/portfolio/item-1.png"
-    URL: "projects/test"
-
-  - image: "images/portfolio/item-2.png"
-    URL: "#"
-
-  - image: "images/portfolio/item-3.png"
-    URL: "#"
-
-  - image: "images/portfolio/item-4.png"
-    URL: "#"
-
-  - image: "images/portfolio/item-5.png"
-    URL: "#"
-
-# testimonial
+# testimonial (unused)
 testimonial:
   enable: false
   item:
@@ -118,40 +118,6 @@ testimonial:
       designation: "CEO, Funder"
       content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 
-# sponsor slider
-sponsorSlider:
-  enable: false
-  item:
-    - logo: "images/clients-logo/client-logo-1.png"
-      URL: "#"
-
-    - logo: "images/clients-logo/client-logo-2.png"
-      URL: "#"
-
-    - logo: "images/clients-logo/client-logo-3.png"
-      URL: "#"
-
-    - logo: "images/clients-logo/client-logo-4.png"
-      URL: "#"
-
-    - logo: "images/clients-logo/client-logo-5.png"
-      URL: "#"
-
-    - logo: "images/clients-logo/client-logo-1.png"
-      URL: "#"
-
-    - logo: "images/clients-logo/client-logo-2.png"
-      URL: "#"
-
-    - logo: "images/clients-logo/client-logo-3.png"
-      URL: "#"
-
-    - logo: "images/clients-logo/client-logo-4.png"
-      URL: "#"
-
-    - logo: "images/clients-logo/client-logo-5.png"
-      URL: "#"
-
-# blog
+# blog (unused)
 blog:
   enable: false

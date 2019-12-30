@@ -3,7 +3,7 @@ list:
   - category: "Gold"
     children:
       - logo: "images/clients-logo/client-logo-1.png"
-        URL: ""
+        URL: "http://www.google.com"
 
       - logo: "images/about/author.jpg"
         URL: ""
