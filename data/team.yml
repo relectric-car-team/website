@@ -23,22 +23,27 @@ members:
   - name: "Ratik Kapoor"
     image: "images/team/ratik-k.jpg"
     role: "Team Lead"
+    bio: "As the founder and team lead of Relectric, I oversee all of our teams and ensure that we are on-time and on-budget. I am also the primary liaison between the team, our governing bodies, and sponsors. Electric cars have always excited me as a new development in the automotive industry and I am confident our contributions will make EVs more accessible to the public and generate excitement in the car community as a whole."
 
   - name: "Rahul Duggi"
     image: "images/team/rahul-d.jpeg"
     role: "Mechanical/Electrical Lead"
+    bio: "As the mechanical/electrical lead, I manage both the battery and motor sub-teams making sure there is continuity between the two teams and  that we are on track to meet our timelines. I love everything about cars and believe that electric cars are the next phase in car development."
 
   - name: "Amrit Mahendrarajah"
     image: "images/team/amrit-m.jpg"
     role: "Battery Lead"
+    bio: "I am the battery lead. I oversee the design and implementation of the energy storage and dissemination systems that propel the vehicle. I have been an avid car enthusiast for as long as I can remember. While internal combustion engines have come a long way, they have reached the peak of their capabilities. I believe the future of automotive performance resides in electric vehicles."
 
   - name: "Daunte Sutherland"
     image: "images/team/daunte-s.jpg"
     role: "Mechanical Lead"
+    bio: "I am the motor lead. I look over the installation of the electric motor and conversion of the engine's associated features to electric power. I have recently become fascinated with cars whether it is the aspect of converting, building, or racing. I believe that electric cars will become more prevalent in the future car market and that our work will help this become a reality."
 
   - name: "Elize Tran"
     image: "images/team/elize-t.jpeg"
     role: "Software Lead"
+    bio: "As the software lead, I manage the research and development of the user interface for the relectric car. I am passionate about developments in clean energy and energy saving devices."
 
   - name: "Baylee Cheung"
     image: "images/team/default.png"
@@ -55,3 +60,4 @@ members:
   - name: "Hannah Poon"
     image: "images/team/hannah-p.jpeg"
     role: "Geomatics Lead"
+    bio: "As Geomatics Lead, I manage the framework for the geospatial data of the Relectric car. I am passionate about renewable energy sources and reducing carbon emissions."

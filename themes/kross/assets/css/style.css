@@ -961,3 +961,8 @@ blockquote {
 .team-card {
   margin: 20px 0px !important;
 }
+
+.card-bio {
+  overflow-y: auto;
+  /* height: 150px; */
+}
