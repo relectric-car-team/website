@@ -5,10 +5,11 @@
 <section class="section">
   <div class="container">
     <div class="row shuffle-wrapper">
-      {{ range .Site.Data.gallery.items }}
-      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[{{range $index, $element:= .projectType }}{{if eq $index 0}} {{else}},{{end}}&quot;{{.type}}&quot;{{ end }}]">
+      {{ range (readDir "static/images/gallery/") }}
+      <div class="col-lg-4 col-6 mb-4 shuffle-item">
         <div class="position-relative rounded hover-wrapper">
-          <img src="{{.image | absURL }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+          {{ $path := printf "images/gallery/%s" .Name }}
+          <img src="{{ $path | absURL }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
         </div>
       </div>
       {{ end }}

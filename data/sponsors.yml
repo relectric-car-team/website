@@ -4,6 +4,8 @@ list:
     children:
       - logo: "images/sponsors/go-electric.png"
         URL: "https://goelectricyyc.com/"
-
+    
+  - category: "Silver"
+    children:
       - logo: "images/sponsors/schulich.png"
         URL: "https://schulich.ucalgary.ca/"

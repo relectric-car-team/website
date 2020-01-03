@@ -1,7 +1,11 @@
 {{ define "main" }}
   {{ partial "page-title.html" . }}
 
-  {{ range .Site.Data.sponsors.list }}
-    {{ partial "sponsor-slider.html" . }}
-  {{ end }}
+  <div class="container sponsor-container">
+    {{ range .Site.Data.sponsors.list }}
+      <div class="row">
+        {{ partial "sponsor-slider.html" . }}
+      </div>
+    {{ end }}
+  </div>
 {{ end }}

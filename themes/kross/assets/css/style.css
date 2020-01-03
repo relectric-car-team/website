@@ -946,6 +946,18 @@ blockquote {
   max-height: 150px;
 }
 
+.sponsor-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+}
+
 .team-card {
-  
+  margin: 20px 0px !important;
 }

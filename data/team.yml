@@ -41,11 +41,11 @@ members:
     role: "Software Lead"
 
   - name: "Baylee Cheung"
-    image: "images/team/member-3.png"
+    image: "images/team/default.png"
     role: "User Interface Lead"
   
   - name: "Radu Schirliu"
-    image: "images/team/member-3.png"
+    image: "images/team/default.png"
     role: "Systems Lead"
   
   - name: "Matthew Ding"

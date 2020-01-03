@@ -8,7 +8,7 @@
       {{ range .Site.Data.team.members }}
       <div class="col-md-4 col-sm-6 mb-4 mb-md-0 team-card">
         <div class="card text-center">
-          <img src="{{ .image | absURL }}" class="card-img-top">
+          <div style="background-image: url('{{ .image | absURL }}')" class="card-img-top"></div>
           <div class="card-body">
             <h4 class="card-title">{{ .name }}</h4>
             <p class="text-light font-secondary">{{ .role }}</p>
