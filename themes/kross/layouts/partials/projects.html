@@ -5,19 +5,22 @@
         <h2 class="section-title">Projects</h2>
       </div>
     </div>
+
     <div class="row shuffle-wrapper">
-      {{ range .Site.Data.homepage.projects }}
-      <div class="col-lg-4 col-6 mb-4 shuffle-item">
-        <div class="position-relative rounded hover-wrapper">
-          <img src="{{ .image | absURL }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
-          <div class="hover-overlay">
-            <div class="hover-content">
-              {{ with .title }}<p class="project-title">{{ . }}</p> {{ end }}
-              <a class="btn btn-light btn-sm" href="{{ .URL }}">view project</a>
+      {{ range where .Site.Pages "File.Dir" "in" "projects\\" }}
+        {{ if .IsPage }}
+          <div class="col-lg-4 col-6 mb-4 shuffle-item">
+            <div class="position-relative rounded hover-wrapper">
+              <img src="{{ .Params.Image | absURL }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+              <div class="hover-overlay">
+                <div class="hover-content">
+                  {{ with .Title }}<p class="project-title">{{ . }}</p> {{ end }}
+                  <a class="btn btn-light btn-sm" href="{{ .Permalink }}">view project</a>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
+        {{ end }}
       {{ end }}
     </div>
   </div>

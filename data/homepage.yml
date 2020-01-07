@@ -19,24 +19,6 @@ about:
     btnText: "Learn More"
     URL: "/about"
 
-# projects
-projects:
-  - title: "A great project"
-    image: "images/portfolio/item-1.png"
-    URL: "projects/test"
-
-  - image: "images/portfolio/item-2.png"
-    URL: "#"
-
-  - image: "images/portfolio/item-3.png"
-    URL: "#"
-
-  - image: "images/portfolio/item-4.png"
-    URL: "#"
-
-  - image: "images/portfolio/item-5.png"
-    URL: "#"
-
 # skill (unused)
 skill:
   enable: false

@@ -3,9 +3,11 @@ list:
   - category: "Gold"
     children:
       - logo: "images/sponsors/go-electric.png"
+        desc: "a description"
         URL: "https://goelectricyyc.com/"
     
   - category: "Silver"
     children:
       - logo: "images/sponsors/schulich.png"
+        desc: "a description"
         URL: "https://schulich.ucalgary.ca/"
