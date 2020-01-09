@@ -64,10 +64,10 @@ summaryLength = "10"
 logo = "images/logo.png"
 home = "Home"
 # Meta data
-description = "This is meta description"
+description = "Dedicated to lowering the barrier of EV adoption through research and development"
 author = "Relectric Car Team"
 # Google Analitycs
-googleAnalitycsID = "Your ID"
+#googleAnalitycsID = "Your ID"
 debug = true
 
   # Preloader
