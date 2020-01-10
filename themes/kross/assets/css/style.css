@@ -964,14 +964,15 @@ blockquote {
 
 .team-social {
   display: block;
-  color: rgb(110, 110, 110);
+  color: rgb(100, 100, 100);
   width: fit-content;
   margin: 0px auto 16px auto;
   font-size: 18px;
 }
 
 .team-social:hover {
-  opacity: 0.55;
+  color: rgb(120, 120, 120);
+  opacity: 0.75;
 }
 
 .card-bio {
