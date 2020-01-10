@@ -28,7 +28,10 @@
         </div>
         <div class="col-md-4 text-center drag-lg-top">
           <div class="shadow-down mb-4">
-            <img src="{{.Params.Image | absURL }}" alt="author" class="img-fluid w-100 rounded-lg border-thick border-white">
+            <img src="{{ .Params.Image | absURL }}" alt="about" class="img-fluid w-100 rounded-lg border-thick border-white">
+            {{ with .Params.ImageBottom | absURL }}
+              <img src="{{ . }}" alt="about-sub" class="img-fluid w-100 rounded-lg border-thick border-white">
+            {{ end }}
           </div>
         </div>
       </div>

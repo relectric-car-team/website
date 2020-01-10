@@ -7,15 +7,15 @@
     </div>
 
     <div class="row shuffle-wrapper">
-      {{ range where .Site.Pages "File.Dir" "in" "projects\\" }}
-        {{ if .IsPage }}
+      {{ range .Site.Pages }}
+        {{ if and .IsPage .Params.IsProject }}
           <div class="col-lg-4 col-6 mb-4 shuffle-item">
             <div class="position-relative rounded hover-wrapper">
               <img src="{{ .Params.Image | absURL }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
               <div class="hover-overlay">
                 <div class="hover-content">
                   {{ with .Title }}<p class="project-title">{{ . }}</p> {{ end }}
-                  <a class="btn btn-light btn-sm" href="{{ .Permalink }}">view project</a>
+                  <a class="btn btn-light btn-sm" href="{{ .Permalink }}">View Project</a>
                 </div>
               </div>
             </div>

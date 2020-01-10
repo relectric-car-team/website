@@ -12,6 +12,11 @@
           <div class="card-body">
             <h4 class="card-title">{{ .name }}</h4>
             <p class="text-color font-secondary">{{ .role }}</p>
+            {{ with .linkedin }}
+              <a class="team-social" href="{{ . }}">
+                <i class="ti-linkedin"></i>
+              </a>
+            {{ end }}
             <p class="text-light font-secondary card-bio">{{ .bio }}</p>
           </div>
         </div>

@@ -962,6 +962,18 @@ blockquote {
   margin: 20px 0px !important;
 }
 
+.team-social {
+  display: block;
+  color: rgb(110, 110, 110);
+  width: fit-content;
+  margin: 0px auto 16px auto;
+  font-size: 18px;
+}
+
+.team-social:hover {
+  opacity: 0.55;
+}
+
 .card-bio {
   overflow-y: auto;
   /* height: 150px; */
