@@ -1,3 +1,5 @@
+# Disable this until we actually know what we're going to write for it
+enabled: false
 step:
   - title : "Research and Plan"
     icon : "images/icons/plan.png"
