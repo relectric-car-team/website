@@ -1,9 +1,9 @@
-<div class="sponsor-slider">
+<div class="sponsor-container">
   <p class="sponsor-category">{{ .category }}</p>
   <div class="sponsor-images">
     {{ range .children }}
       <a href="{{ .URL }}" class="sponsor-item">
-        <img class="sponsor-logo" src="{{ .logo | absURL }}">
+        <img width="150px" height="auto" src="{{ .logo | absURL }}">
       </a>
     {{ end }}
   </div>

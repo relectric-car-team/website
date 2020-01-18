@@ -49,3 +49,13 @@
     ga('send', 'pageview');
   </script>
 {{ end }}
+
+<!-- LazyLoading JS Images -->
+<script src="https://cdn.jsdelivr.net/npm/intersection-observer@0.7.0/intersection-observer.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.4.0/dist/lazyload.min.js"></script>
+
+<script type="text/javascript">
+  const lazyLoader = new LazyLoad({
+      elements_selector: '.lazy-load'
+  });
+</script>

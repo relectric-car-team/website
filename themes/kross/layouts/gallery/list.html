@@ -9,7 +9,7 @@
       <div class="col-lg-4 col-6 mb-4 shuffle-item">
         <div class="position-relative rounded hover-wrapper">
           {{ $path := printf "images/gallery/%s" .Name }}
-          <img src="{{ $path | absURL }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+          <img data-src="{{ $path | absURL }}" alt="portfolio-image" class="lazy-load img-fluid rounded w-100 d-block">
         </div>
       </div>
       {{ end }}

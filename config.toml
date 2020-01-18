@@ -67,7 +67,7 @@ home = "Home"
 description = "Dedicated to lowering the barrier of EV adoption through research and development"
 author = "Relectric Car Team"
 # Google Analitycs
-#googleAnalitycsID = "Your ID"
+googleAnalitycsID = "UA-156166255-1"
 debug = true
 
   # Preloader
