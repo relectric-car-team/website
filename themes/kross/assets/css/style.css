@@ -238,9 +238,17 @@ a:hover {
 }
 
 .bg-cover {
-  background-size: cover;
+  background-size: auto;
   background-position: 50%;
-  background-repeat: no-repeat
+  background-repeat: repeat-y;
+}
+
+@media screen and (max-width: 768px) {
+  .bg-cover {
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+  }
 }
 
 .overlay {
@@ -497,47 +505,95 @@ textarea.form-control {
 
 #l1 {
   bottom: 0;
-  left: 0
+  left: 0;
 }
 
 #l2 {
   top: 190px;
-  left: -250px
+  left: -250px;
 }
 
 #l3 {
   top: 100px;
-  left: 40%
+  left: 40%;
 }
 
 #l4 {
-  top: 200px;
-  right: 10%
+  display: none;
 }
 
 #l5 {
   top: 100px;
-  right: -150px
+  right: -150px;
 }
 
 #l6 {
-  bottom: -20px;
-  left: 5%
+  bottom: -10px;
+  left: -10px;
+  transform: rotate(25deg);
 }
 
 #l7 {
-  bottom: 120px;
-  left: 25%
+  display: none;
 }
 
 #l8 {
-  bottom: 40px;
-  right: 30%
+  bottom: 120px;
+  right: 10px;
 }
 
 #l9 {
-  bottom: 100px;
-  right: -10px
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  #l1 {
+    bottom: 0;
+    left: 0;
+  }
+  
+  #l2 {
+    top: 190px;
+    left: -250px;
+  }
+  
+  #l3 {
+    top: 100px;
+    left: 40%;
+  }
+  
+  #l4 {
+    display: block;
+    top: 200px;
+    right: 10%;
+  }
+  
+  #l5 {
+    top: 100px;
+    right: -150px;
+  }
+  
+  #l6 {
+    bottom: -20px;
+    left: 5%;
+  }
+  
+  #l7 {
+    display: block;
+    bottom: 120px;
+    left: 25%;
+  }
+  
+  #l8 {
+    bottom: 40px;
+    right: 30%;
+  }
+  
+  #l9 {
+    display: block;
+    bottom: 100px;
+    right: -10px;
+  }
 }
 
 .layer-bg {
@@ -809,11 +865,12 @@ blockquote {
 
 .page-title-alt .bg-shape-2 {
   position: absolute;
-  left: 50px;
-  top: 180px
+  left: 15px;
+  top: 200px
 }
 
 .page-title-alt .bg-shape-3 {
+  display: none;
   position: absolute;
   left: 40%;
   top: 80px;
@@ -828,6 +885,7 @@ blockquote {
 }
 
 .page-title-alt .bg-shape-5 {
+  display: none;
   position: absolute;
   right: 45%;
   bottom: -20px;
@@ -836,9 +894,32 @@ blockquote {
 
 .page-title-alt .bg-shape-6 {
   position: absolute;
-  bottom: -20px;
-  right: 70px;
-  transform: rotate(45deg);
+  bottom: 0px;
+  right: 5px;
+  transform: rotate(-45deg);
+}
+
+@media screen and (min-width: 768px) {
+  .page-title-alt .bg-shape-2 {
+    position: absolute;
+    left: 50px;
+    top: 180px
+  }
+
+  .page-title-alt .bg-shape-3 {
+    display: block;
+  }
+
+  .page-title-alt .bg-shape-5 {
+    display: block;
+  }
+
+  .page-title-alt .bg-shape-6 {
+    position: absolute;
+    bottom: -20px;
+    right: 70px;
+    transform: rotate(45deg);
+  }
 }
 
 .page-title {
@@ -860,9 +941,7 @@ blockquote {
 }
 
 .page-title .bg-shape-2 {
-  position: absolute;
-  left: 15px;
-  top: 80px;
+  display: none;
 }
 
 .page-title .bg-shape-3 {
@@ -872,31 +951,63 @@ blockquote {
 }
 
 .page-title .bg-shape-4 {
-  position: absolute;
-  left: 52%;
-  top: 90px;
-  transform: rotate(20deg);
+  display: none;
 }
 
 .page-title .bg-shape-5 {
-  position: absolute;
-  left: 70px;
-  bottom: -15px;
-  transform: rotate(-40deg);
+  display: none;
 }
 
 .page-title .bg-shape-6 {
   position: absolute;
-  right: 10%;
-  bottom: -10px;
+  right: 0px;
+  bottom: 0px;
   transform: rotate(-15deg);
 }
 
 .page-title .bg-shape-7 {
   position: absolute;
-  right: 20px;
-  top: 140px;
+  left: 10px;
+  top: 135px;
   transform: rotate(-30deg);
+}
+
+@media screen and (min-width: 768px) {
+  .page-title .bg-shape-2 {
+    position: absolute;
+    left: 15px;
+    top: 80px;
+  }
+
+  .page-title .bg-shape-4 {
+    display: block;
+    position: absolute;
+    left: 52%;
+    top: 90px;
+    transform: rotate(20deg);
+  }
+
+  .page-title .bg-shape-5 {
+    display: block;
+    position: absolute;
+    left: 70px;
+    bottom: -15px;
+    transform: rotate(-40deg);
+  }
+
+  .page-title .bg-shape-6 {
+    position: absolute;
+    right: 10%;
+    bottom: -10px;
+    transform: rotate(-15deg);
+  }
+
+  .page-title .bg-shape-7 {
+    position: absolute;
+    right: 20px;
+    top: 140px;
+    transform: rotate(-30deg);
+  }
 }
 
 .filter-controls li {
