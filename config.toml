@@ -59,6 +59,11 @@ summaryLength = "10"
   URL = "contact"
   weight = 6
 
+  [[menu.main]]
+  name = "Apply"
+  URL = "https://docs.google.com/forms/d/e/1FAIpQLSd0fhEgMMRkwFk6SxxLVLw8N55sILPsz8MT_bkKkLnMKYwAAg/viewform"
+  weight = 7
+
 
 [params]
 logo = "images/logo.png"
