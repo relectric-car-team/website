@@ -57,9 +57,28 @@
       <div class="row">
         <div class="col-lg-10 mx-auto text-center">
           {{ with .Site.Data.homepage.about }}
-          <p class="font-secondary lead text-dark">{{.content | markdownify}}</p>
+          <p class="font-secondary lead text-dark">{{ .content | markdownify }}</p>
           {{ with .button }}
-          <a href="{{ .URL | absURL }}" class="btn btn-transparent">{{.btnText}}</a>
+          <a href="{{ .URL | absURL }}" class="btn btn-transparent">{{ .text }}</a>
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /about -->
+  {{ end }}
+
+  {{ if .Site.Data.homepage.applications.enable }}
+  <!-- Applications -->
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 mx-auto text-center">
+          {{ with .Site.Data.homepage.applications }}
+          <p class="font-secondary lead text-dark">{{ .content | markdownify }}</p>
+          {{ with .button }}
+          <a href="{{ .URL | absURL }}" class="btn btn-transparent">{{ .text }}</a>
           {{ end }}
           {{ end }}
         </div>

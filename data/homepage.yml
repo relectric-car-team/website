@@ -16,8 +16,16 @@ about:
   enable: true
   content: "Our mission is to raise awareness about the adverse effects of carbon emissions by converting existing gasoline cars into high quality, affordable electric vehicles"
   button:
-    btnText: "Learn More"
+    text: "Learn More"
     URL: "/about"
+
+# Applications
+applications:
+  enable: true
+  content: "We're recruiting for the 2020 - 2021 year! Interested in joining us? Fill out the form below and we'll be in touch!"
+  button:
+    text: "Apply Now"
+    URL: "https://docs.google.com/forms/d/e/1FAIpQLSd0fhEgMMRkwFk6SxxLVLw8N55sILPsz8MT_bkKkLnMKYwAAg/viewform"
 
 # skill (unused)
 skill:
