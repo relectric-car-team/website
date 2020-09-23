@@ -36,7 +36,7 @@ members:
     role: "Business Lead"
     linkedin: "https://www.linkedin.com/in/matthew-ding-ab2b701a0/"
     bio: "The main purpose of the business portfolio is to manage and maintain operations. Primary focus is to gather sponsors and to allocate spending accordingly. We manage the team’s timeline. We also focus on marketing and promoting our club, to raise awareness about sustainability and about the beneficial effects of electric-powered vehicles."
-  
+
   - name: "Claire Mah"
     image: "images/team/claire-m.jpg"
     role: "Geomatics Lead"
@@ -46,6 +46,7 @@ members:
   - name: "Amrit Mahendrarajah"
     image: "images/team/amrit-m.jpg"
     role: "Electrical Lead"
+    linkedin: "https://www.linkedin.com/in/amrit-mahendrarajah-8238b319b/"
     bio: "I am the electrical lead. I oversee the design and implementation of the energy storage and dissemination systems that propel the vehicle. I have been an avid car enthusiast for as long as I can remember. While internal combustion engines have come a long way, they have reached the peak of their capabilities. I believe the future of automotive performance resides in electric vehicles."
 
   - name: "Daunte Sutherland"
