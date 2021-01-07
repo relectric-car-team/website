@@ -24,7 +24,7 @@ departments:
     content : "The Business team is responsible for contacting sponsors and potential partners to create a larger outreach within the community. We are also in charge of allocating funding and spending accordingly through the use of financial statements. Furthermore, we also coordinate events for marketing and promoting our club to raise awareness about sustainability."
     highlighted : true
 
-members:
+leadershipteam:
   - name: "Ratik Kapoor"
     image: "images/team/ratik-k.jpg"
     role: "Team Lead"
@@ -61,6 +61,7 @@ members:
     linkedin: "https://www.linkedin.com/in/elize-tran-55a798192/"
     bio: "As the software lead, I manage the research and development of the user interface for the relectric car. I am passionate about developments in clean energy and energy saving devices."
 
+projectleads:
   - name: "Radu Schirliu"
     image: "images/team/radu-s.jpg"
     role: "Systems Lead"
@@ -72,3 +73,4 @@ members:
     role: "User Interface Lead"
     linkedin: "https://www.linkedin.com/in/baylee-cheung-89bab2197/"
     bio: "Hi, I’m the user interface lead. My role is to make our clean energy cars simple to use by providing an user interface system where the user can interact with the car and vice versa. I’m passionate about making electric cars accessible to everyone in order to promote the reduction of carbon emissions."
+
