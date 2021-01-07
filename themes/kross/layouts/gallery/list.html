@@ -1,15 +1,17 @@
-{{ define "main" }}
-
-{{ partial "page-title.html" . }}
+{{ define "main" }} {{ partial "page-title.html" . }}
 
 <section class="section">
   <div class="container">
-    <div class="row shuffle-wrapper">
+    <div class="row my-shuffle-container">
       {{ range (readDir "static/images/gallery/") }}
       <div class="col-lg-4 col-6 mb-4 shuffle-item">
         <div class="position-relative rounded hover-wrapper">
           {{ $path := printf "images/gallery/%s" .Name }}
-          <img data-src="{{ $path | absURL }}" alt="portfolio-image" class="lazy-load img-fluid rounded w-100 d-block">
+          <img
+            data-src="{{ $path | absURL }}"
+            alt="portfolio-image"
+            class="lazy-load img-fluid rounded w-100 d-block"
+          />
         </div>
       </div>
       {{ end }}
