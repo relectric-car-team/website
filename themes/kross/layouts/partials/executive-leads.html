@@ -1,0 +1,28 @@
+<!-- team -->
+<section class="section bg-cover" data-background="{{`images/backgrounds/team-bg.png`|absURL}}">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Our Leadership Team</h2>
+      </div>
+      {{ range .Site.Data.team.executiveleads }}
+      <div class="col-md-4 col-sm-6 mb-4 mb-md-0 team-card">
+        <div class="card text-center">
+          <div style="background-image: url('{{ .image | absURL }}')" class="card-img-top"></div>
+          <div class="card-body">
+            <h4 class="card-title">{{ .name }}</h4>
+            <p class="text-color font-secondary">{{ .role }}</p>
+            {{ with .linkedin }}
+              <a class="team-social" href="{{ . }}">
+                <i class="ti-linkedin"></i>
+              </a>
+            {{ end }}
+            <p class="text-light font-secondary card-bio">{{ .bio }}</p>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+<!-- /team -->
