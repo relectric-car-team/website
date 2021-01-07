@@ -55,14 +55,19 @@ summaryLength = "10"
   weight = 5
 
   [[menu.main]]
+  name = "In The News"
+  URL = "news"
+  weight = 6
+
+  [[menu.main]]
   name = "Contact"
   URL = "contact"
-  weight = 6
+  weight = 7
 
   [[menu.main]]
   name = "Apply"
   URL = "https://docs.google.com/forms/d/e/1FAIpQLSd0fhEgMMRkwFk6SxxLVLw8N55sILPsz8MT_bkKkLnMKYwAAg/viewform"
-  weight = 7
+  weight = 8
 
 
 [params]

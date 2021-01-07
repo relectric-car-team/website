@@ -1,0 +1,11 @@
+{{ define "main" }}
+{{ partial "page-title.html" . }}
+
+<div class="section">
+    {{ range .Site.Data.news.list }}
+    <div class="row">
+        {{ partial "sponsor-slider.html" . }}
+    </div>
+    {{ end }}
+</div>
+{{ end }}
