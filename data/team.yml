@@ -1,30 +1,30 @@
 departments:
-  - title : "Electrical"
-    icon : "ti-bolt"
-    content : "Responsible for the identification, research, procurement and installation of all electrical components required for the vehicle. This includes large components such as the battery, motor, battery management system, and charger. Smaller components include the throttle pedal potentiometer and brake pedal transducer. The electrical team also works closely with software for embedded systems projects using devices like Arduinos and Raspberry Pi's."
-    highlighted : true
+  - title: "Electrical"
+    icon: "ti-bolt"
+    content: "Responsible for the identification, research, procurement and installation of all electrical components required for the vehicle. This includes large components such as the battery, motor, battery management system, and charger. Smaller components include the throttle pedal potentiometer and brake pedal transducer. The electrical team also works closely with software for embedded systems projects using devices like Arduinos and Raspberry Pi's."
+    highlighted: true
 
   - title: "Mechanical"
     icon: "ti-car"
     content: "Tasked with the research and installation of parts related to the car that are not directly related to the electrical grid. This includes the motor, motor mount, transmission and it's associated parts, battery housing, heating systems, braking, and more. This team works closely with the electrical team and will be spending most of its time doing hands-on work on the car this year."
-    highlighted : true
+    highlighted: true
 
-  - title : "Software"
-    icon : "ti-cloud"
-    content : "Our software team is made up of two sub teams: systems and user interface. The goal is to streamline the interaction between the car and the user by collecting important data from the other teams and displaying it on the dashboard and infotainment display. Software works closely with electrical and geomatics to get inputs in order to seamlessly tie together the converted EV experience."
-    highlighted : true
+  - title: "Software"
+    icon: "ti-cloud"
+    content: "Our software team is made up of two sub teams: systems and user interface. The goal is to streamline the interaction between the car and the user by collecting important data from the other teams and displaying it on the dashboard and infotainment display. Software works closely with electrical and geomatics to get inputs in order to seamlessly tie together the converted EV experience."
+    highlighted: true
 
-  - title : "Geomatics"
-    icon : "ti-map-alt"
-    content : "The geomatics team is responsible for collecting and managing any geospatial or location data, including the acceleration and orientation of the car. We are also working on a navigation system and proximity sensors and will work to integrate these developments with the UI designed by the software team. This team enriches the coveted EV experience by providing modern car amenities to old cars (such as blind spot detection and parking assist)."
-    highlighted : true
+  - title: "Geomatics"
+    icon: "ti-map-alt"
+    content: "The geomatics team is responsible for collecting and managing any geospatial or location data, including the acceleration and orientation of the car. We are also working on a navigation system and proximity sensors and will work to integrate these developments with the UI designed by the software team. This team enriches the coveted EV experience by providing modern car amenities to old cars (such as blind spot detection and parking assist)."
+    highlighted: true
 
-  - title : "Business"
-    icon : "ti-stats-up"
-    content : "The Business team is responsible for contacting sponsors and potential partners to create a larger outreach within the community. We are also in charge of allocating funding and spending accordingly through the use of financial statements. Furthermore, we also coordinate events for marketing and promoting our club to raise awareness about sustainability."
-    highlighted : true
+  - title: "Business"
+    icon: "ti-stats-up"
+    content: "The Business team is responsible for contacting sponsors and potential partners to create a larger outreach within the community. We are also in charge of allocating funding and spending accordingly through the use of financial statements. Furthermore, we also coordinate events for marketing and promoting our club to raise awareness about sustainability."
+    highlighted: true
 
-members:
+executiveleads:
   - name: "Ratik Kapoor"
     image: "images/team/ratik-k.jpg"
     role: "Team Lead"
@@ -32,7 +32,7 @@ members:
     bio: "As the founder and team lead of Relectric, I oversee all of our teams and ensure that we are on-time and on-budget. I am also the primary liaison between the team, our governing bodies, and sponsors. Electric cars have always excited me as a new development in the automotive industry and I am confident our contributions will make EVs more accessible to the public and generate excitement in the car community as a whole."
 
   - name: "Matthew Ding"
-    image: "images/team/matthew-d.png"
+    image: "images/team/matthew-d.jpg"
     role: "Business Lead"
     linkedin: "https://www.linkedin.com/in/matthew-ding-ab2b701a0/"
     bio: "The main purpose of the business portfolio is to manage and maintain operations. Primary focus is to gather sponsors and to allocate spending accordingly. We manage the team’s timeline. We also focus on marketing and promoting our club, to raise awareness about sustainability and about the beneficial effects of electric-powered vehicles."
@@ -61,6 +61,7 @@ members:
     linkedin: "https://www.linkedin.com/in/elize-tran-55a798192/"
     bio: "As the software lead, I manage the research and development of the user interface for the relectric car. I am passionate about developments in clean energy and energy saving devices."
 
+projectleads:
   - name: "Radu Schirliu"
     image: "images/team/radu-s.jpg"
     role: "Systems Lead"
@@ -72,3 +73,21 @@ members:
     role: "User Interface Lead"
     linkedin: "https://www.linkedin.com/in/baylee-cheung-89bab2197/"
     bio: "Hi, I’m the user interface lead. My role is to make our clean energy cars simple to use by providing an user interface system where the user can interact with the car and vice versa. I’m passionate about making electric cars accessible to everyone in order to promote the reduction of carbon emissions."
+
+  - name: "Camilla Abdrazakov"
+    image: "images/team/camilla-a.jpg"
+    role: "Interior Console Lead"
+    linkedin: "https://www.linkedin.com/in/camilla-abdrazakov/"
+    bio: "As the interior console lead, I look over the design and initial prototyping of the interior console. I am fascinated by electric cars, and I believe that they are central to the future of transportation. My goal on this team is to normalize sustainability and clean energy by contributing to EV accessibility."
+
+  - name: "Mac Dressler"
+    image: "images/team/mac-d.jpg"
+    role: "Sensory Data Lead"
+    linkedin: "https://www.linkedin.com/in/mac-dressler-364135195/"
+    bio: "I am a second year engineering student with a Geomatics major and a Digital minor. My role on Team Relectric is to supervise and work with a group of Geomatics and Software students to install different sensor systems to assist the driver with reversing and parking. Our current goal is to implement sensors in the back of the car to help the driver know how close they are to obstacles behind them. I am grateful for the opportunity to learn about this application of geomatics in such a hands on way and I am very excited for the year."
+
+  - name: "Jordan Christopher-Shah"
+    image: "images/team/jordan-s.png"
+    role: "Motor Systems Lead"
+    linkedin: "https://www.linkedin.com/in/jordanchristophershah-b48332193/"
+    bio: "I am a technical projects lead focusing on our electrical powertrain. My role is to work along side the Electrical Lead to oversee the implementation of the cars motor controller, and various associated systems. I am in electrical engineering however I have always loved mechanics and cars. Electric vehicles, consequently, have always been an interest of mine. As electrical vehicles gain prevalence it is an exciting time for future engineers like myself to be working with this technology with the hopes of increasing its accessibility and promoting a more sustainable future."
