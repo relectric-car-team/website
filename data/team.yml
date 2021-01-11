@@ -32,7 +32,7 @@ executiveleads:
     bio: "As the founder and team lead of Relectric, I oversee all of our teams and ensure that we are on-time and on-budget. I am also the primary liaison between the team, our governing bodies, and sponsors. Electric cars have always excited me as a new development in the automotive industry and I am confident our contributions will make EVs more accessible to the public and generate excitement in the car community as a whole."
 
   - name: "Matthew Ding"
-    image: "images/team/matthew-d.png"
+    image: "images/team/matthew-d.jpg"
     role: "Business Lead"
     linkedin: "https://www.linkedin.com/in/matthew-ding-ab2b701a0/"
     bio: "The main purpose of the business portfolio is to manage and maintain operations. Primary focus is to gather sponsors and to allocate spending accordingly. We manage the team’s timeline. We also focus on marketing and promoting our club, to raise awareness about sustainability and about the beneficial effects of electric-powered vehicles."
@@ -75,13 +75,13 @@ projectleads:
     bio: "Hi, I’m the user interface lead. My role is to make our clean energy cars simple to use by providing an user interface system where the user can interact with the car and vice versa. I’m passionate about making electric cars accessible to everyone in order to promote the reduction of carbon emissions."
 
   - name: "Camilla Abdrazakov"
-    image: "images/team/camilla-a.png"
+    image: "images/team/camilla-a.jpg"
     role: "Interior Console Lead"
     linkedin: "https://www.linkedin.com/in/camilla-abdrazakov/"
     bio: "As the interior console lead, I look over the design and initial prototyping of the interior console. I am fascinated by electric cars, and I believe that they are central to the future of transportation. My goal on this team is to normalize sustainability and clean energy by contributing to EV accessibility."
 
   - name: "Mac Dressler"
-    image: "images/team/mac-d.png"
+    image: "images/team/mac-d.jpg"
     role: "Sensory Data Lead"
     linkedin: "https://www.linkedin.com/in/mac-dressler-364135195/"
     bio: "I am a second year engineering student with a Geomatics major and a Digital minor. My role on Team Relectric is to supervise and work with a group of Geomatics and Software students to install different sensor systems to assist the driver with reversing and parking. Our current goal is to implement sensors in the back of the car to help the driver know how close they are to obstacles behind them. I am grateful for the opportunity to learn about this application of geomatics in such a hands on way and I am very excited for the year."
