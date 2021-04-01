@@ -7,7 +7,7 @@ banner:
 
     - icon: "ti-instagram"
       URL: "https://www.instagram.com/teamrelectric/"
-    
+
     - icon: "ti-linkedin"
       URL: "https://www.linkedin.com/company/28557275"
 
@@ -21,7 +21,7 @@ about:
 
 # Applications
 applications:
-  enable: true
+  enable: false
   content: "We're recruiting for the 2020 - 2021 year! Interested in joining us? Fill out the form below and we'll be in touch!"
   button:
     text: "Apply Now"
