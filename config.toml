@@ -87,3 +87,5 @@ debug = true
   [params.footer]
   email = "info@teamrelectric.ca"
   address = "622 Collegiate Pl NW, Calgary, AB T2N 4V8"
+  instagram = "https://www.instagram.com/teamrelectric/"
+  linkedin = "https://www.linkedin.com/company/28557275"

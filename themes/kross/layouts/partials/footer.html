@@ -9,13 +9,23 @@
             {{.Site.Params.footer.email}}
           </a>
         </div>
-        <div class="col-md-4">
-          {{ if .Site.Params.footer.phone }}
-            <h5 class="text-light">Phone</h5>
-            <p class="text-white paragraph-lg font-secondary">{{.Site.Params.footer.phone}}</p>
+        <div class="col-md-4 mt-3">
+          {{ if .Site.Params.footer.instagram }}
+            <!-- <h5 class="text-light">Phone</h5>
+            <p class="text-white paragraph-lg font-secondary">{{.Site.Params.footer.phone}}</p> -->
+            <ul class="p-0" style="text-align: center;">
+                <li class="">
+                  <a class="text-white social-link mr-5" href="{{ .Site.Params.footer.instagram }}">
+                    <i class="ti-instagram"></i>
+                  </a>
+                  <a class="text-white social-link ml-5" href="{{ .Site.Params.footer.linkedin }}">
+                    <i class="ti-linkedin"></i>
+                  </a>
+                </li>
+            </ul>
           {{ end }}
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4" style="text-align: right;">
           <h5 class="text-light">Address</h5>
           <p class="text-white paragraph-lg font-secondary">{{ .Site.Params.footer.address }}</p>
         </div>
