@@ -1,7 +1,7 @@
-<div class="container">
+<div class="container p-0">
   <p class="h3 sponsor-category pb-3">{{ .category }}</p>
   <div class="container-fluid">
-    <div class="d-flex justify-content-around">
+    <div class="d-flex flex-wrap justify-content-around">
       {{ range .children }}
       <div class="card pr-5 pb-5" style="width: 20rem;">
         <a href="{{ .URL }}" class="sponsor-item">
