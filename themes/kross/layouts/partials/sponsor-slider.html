@@ -1,10 +1,20 @@
-<div class="sponsor-container">
-  <p class="sponsor-category">{{ .category }}</p>
-  <div class="sponsor-images">
-    {{ range .children }}
-      <a href="{{ .URL }}" class="sponsor-item">
-        <img width="150px" height="auto" src="{{ .logo | absURL }}">
-      </a>
-    {{ end }}
+<div class="container">
+  <p class="h3 sponsor-category pb-3">{{ .category }}</p>
+  <div class="container-fluid">
+    <div class="d-flex justify-content-around">
+      {{ range .children }}
+      <div class="card pr-5 pb-5" style="width: 20rem;">
+        <a href="{{ .URL }}" class="sponsor-item">
+          <img class="card-img-top" src="{{ .logo | absURL }}" style="object-fit: scale-down;">
+          <div class="card-body">
+            <h5 class="card-title">{{ .name }}</h5>
+            {{ if .desc }}
+            <p class="card-text">{{ .desc }}</p>
+            {{ end }}
+          </div>
+        </a>
+      </div>
+      {{ end }}
+    </div>
   </div>
 </div>

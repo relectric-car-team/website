@@ -1,13 +1,48 @@
 # Sponsors
 list:
+  - category: "Platinum"
+    children:
+      - name: Shell Canada
+        logo: "images/sponsors/shell.png"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis mauris vitae tortor luctus molestie. Nulla tristique, purus vel sodales faucibus, nisi dui pharetra metus, at eleifend purus nisi ut massa. Integer erat turpis, consectetur dignissim"
+        URL: "https://www.shell.com"
+      - name: Schulich School of Engineering
+        logo: "images/sponsors/schulich.png"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis mauris vitae tortor luctus molestie. Nulla tristique, purus vel sodales faucibus, nisi dui pharetra metus, at eleifend purus nisi ut massa. Integer erat turpis, consectetur dignissim"
+        URL: "https://schulich.ucalgary.ca/"
+
   - category: "Gold"
     children:
-      - logo: "images/sponsors/go-electric.png"
-        desc: "a description"
-        URL: "https://goelectricyyc.com/"
-    
+      - name: EV Undergound
+        logo: "images/sponsors/evu.png"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis mauris vitae tortor luctus molestie. Nulla tristique, purus vel sodales faucibus, nisi dui pharetra metus, at eleifend purus nisi ut massa. Integer erat turpis, consectetur dignissim"
+        URL: "https://www.evunderground.ca"
+
   - category: "Silver"
     children:
-      - logo: "images/sponsors/schulich.png"
-        desc: "a description"
-        URL: "https://schulich.ucalgary.ca/"
+      - name: GoElectric YYC
+        logo: "images/sponsors/goelectric.png"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis mauris vitae tortor luctus molestie. Nulla tristique, purus vel sodales faucibus, nisi dui pharetra metus, at eleifend purus nisi ut massa. Integer erat turpis, consectetur dignissim"
+        URL: "https://goelectricyyc.com/"
+
+  - category: "Bronze"
+    children:
+      - name: Rapid3D
+        logo: "images/sponsors/rapid3d.png"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis mauris vitae tortor luctus molestie. Nulla tristique, purus vel sodales faucibus, nisi dui pharetra metus, at eleifend purus nisi ut massa. Integer erat turpis, consectetur dignissim"
+        URL: "https://www.rapid3d.ca"
+
+  - category: "Design Tools"
+    children:
+      - name: Altium
+        logo: "images/sponsors/altium.png"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis mauris vitae tortor luctus molestie. Nulla tristique, purus vel sodales faucibus, nisi dui pharetra metus, at eleifend purus nisi ut massa. Integer erat turpis, consectetur dignissim"
+        URL: "https://www.altium.com"
+      - name: SolidWorks
+        logo: "images/sponsors/solidworks.png"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis mauris vitae tortor luctus molestie. Nulla tristique, purus vel sodales faucibus, nisi dui pharetra metus, at eleifend purus nisi ut massa. Integer erat turpis, consectetur dignissim"
+        URL: "http://www.solidworks.com"
+      - name: Altair
+        logo: "images/sponsors/altair.png"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis mauris vitae tortor luctus molestie. Nulla tristique, purus vel sodales faucibus, nisi dui pharetra metus, at eleifend purus nisi ut massa. Integer erat turpis, consectetur dignissim"
+        URL: "https://www.altair.com"
