@@ -6,12 +6,12 @@
       </div>
     </div>
 
-    <div class="row shuffle-wrapper">
+    <div class="d-flex flex-wrap justify-content-around">
       {{ range .Site.Pages }}
         {{ if and .IsPage .Params.IsProject }}
-          <div class="col-lg-4 col-6 mb-4 shuffle-item">
+          <div class="shuffle-item mb-2 card pb-5" style="width: 30rem;">
             <div class="position-relative rounded hover-wrapper">
-              <img src="{{ .Params.Image | absURL }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+              <img src="{{ .Params.Image | absURL }}" alt="project-image" class="img-fluid rounded">
               <div class="hover-overlay">
                 <div class="hover-content">
                   {{ with .Title }}<p class="project-title">{{ . }}</p> {{ end }}
