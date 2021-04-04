@@ -1041,6 +1041,10 @@ blockquote {
   opacity: 0.8;
 }
 
+.sponsor-card {
+  padding-right: 3rem;
+}
+
 .team-card {
   margin: 20px 0px !important;
 }
@@ -1073,4 +1077,49 @@ blockquote {
 
 .project-content {
   margin-top: 25px;
+}
+
+.footer-right {
+  text-align: right;
+}
+
+.footer-middle {
+  text-align: center;
+}
+
+/* Mobile-specific */
+@media screen and (max-width: 600px) {
+  .footer-right {
+    text-align: left;
+  }
+
+  .footer-middle {
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+
+  .section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .navigation.fixed-top {
+    padding: 10px 0px;
+  }
+
+  .sponsor-card {
+    padding-right: 0rem;
+  }
+
+  .sponsor-card .card-img-top {
+    padding: 0px 20px;
+  }
+
+  .page-title {
+    padding: 125px 0 125px;
+  }
+
+  .page-title-alt {
+    padding: 125px 0 125px;
+  }
 }
