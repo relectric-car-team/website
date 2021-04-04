@@ -3,7 +3,7 @@
   <div class="container-fluid">
     <div class="d-flex flex-wrap justify-content-around">
       {{ range .children }}
-      <div class="card pr-5 pb-5" style="width: 20rem;">
+      <div class="card pb-5 sponsor-card" style="width: 20rem;">
         <a href="{{ .URL }}" class="sponsor-item">
           <img class="card-img-top" src="{{ .logo | absURL }}" style="object-fit: scale-down;">
           <div class="card-body">

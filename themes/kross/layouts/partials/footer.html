@@ -9,11 +9,11 @@
             {{.Site.Params.footer.email}}
           </a>
         </div>
-        <div class="col-md-4 mt-3">
+        <div class="col-md-4 mt-3 footer-middle">
           {{ if .Site.Params.footer.instagram }}
             <!-- <h5 class="text-light">Phone</h5>
             <p class="text-white paragraph-lg font-secondary">{{.Site.Params.footer.phone}}</p> -->
-            <ul class="p-0" style="text-align: center;">
+            <ul class="p-0">
                 <li class="">
                   <a class="text-white social-link mr-5" href="{{ .Site.Params.footer.instagram }}">
                     <i class="ti-instagram"></i>
@@ -25,7 +25,7 @@
             </ul>
           {{ end }}
         </div>
-        <div class="col-md-4" style="text-align: right;">
+        <div class="col-md-4 footer-right">
           <h5 class="text-light">Address</h5>
           <p class="text-white paragraph-lg font-secondary">{{ .Site.Params.footer.address }}</p>
         </div>
