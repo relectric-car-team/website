@@ -1,6 +1,6 @@
 ---
 title: "Driver Infotainment and Dashboard"
-image: "images/projects/ui/music.png"
+image: "images/projects/ui/home.png"
 isProject: true
 ---
 
@@ -9,6 +9,8 @@ Relectric’s first project is the transformation of a 1966 Volvo P220 into a fu
 Business: The Business team is constantly working not only to maintain a healthy relationship between our current sponsors and the team but also to recruit potential sponsors. The team is also working on creating a master budget that will help keep Relectric on track financially. Additionally, the Business team is constantly managing all of Relectric’s social media.
 
 Software: The Software team is currently developing a user interface that will interact with the driver. To do this, they are utilizing Python and Raspberry Pi’s. They are also working on researching how to use motors and motor controllers that will be implemented in the vehicle. The Relectric team website is also being constantly managed by the Software team.
+
+![Music Page](/images/projects/ui/music.png)
 
 Electrical-Mechanical: The Electrical-Mechanical team is in charge of preparing the car for the conversion from gasoline to electric powered. They have begun removing all gasoline parts and gathering the equipment necessary for the electric vehicle conversion.
 
