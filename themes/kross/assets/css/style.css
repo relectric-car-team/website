@@ -1101,8 +1101,15 @@ blockquote {
   text-align: center;
 }
 
+.home-crop-image {
+  width: 100%;
+  height: 25vh;
+  object-fit: cover;
+}
+
 /* Mobile-specific */
 @media screen and (max-width: 600px) {
+
   .footer-right {
     text-align: left;
   }
