@@ -4,16 +4,14 @@ image: "images/projects/ui/home.png"
 isProject: true
 ---
 
-Relectric’s first project is the transformation of a 1966 Volvo P220 into a fully functioning electric vehicle. The vehicle was donated to our team by local electric vehicle dealer GoElectric in support of Relectric’s research and development of electric vehicles. Currently Relectric’s four teams are working hard to get our vehicle in operation:
+Our software team has a dedicated sub-team just for developing the User Interface (UI). Our goal on the UI team is to provide a modern dashboard and infotainment system for the driver to interact with. Our project provides an intuitive and clean interaction for the driver. It replaces the previous dashboard, making it fully electric and customizable. The UI team will be working on the main points of interaction for the driver; ranging from viewing the speed of the car to playing music to enjoy the ride! It allows for a fully integrated experience by providing all the necessary functions as well as beautifully sleek finishing touches.
 
-Business: The Business team is constantly working not only to maintain a healthy relationship between our current sponsors and the team but also to recruit potential sponsors. The team is also working on creating a master budget that will help keep Relectric on track financially. Additionally, the Business team is constantly managing all of Relectric’s social media.
+![Music page](/images/projects/ui/music.png)
 
-Software: The Software team is currently developing a user interface that will interact with the driver. To do this, they are utilizing Python and Raspberry Pi’s. They are also working on researching how to use motors and motor controllers that will be implemented in the vehicle. The Relectric team website is also being constantly managed by the Software team.
+There will be two displays installed into the car for the driver infotainment project. The dashboard display will naturally replace the prior dashboard, and it will be wired up to the systems communication to receive critical information about the car’s data and state. The second display is the infotainment display, which will replace the car front interior where the car stereo and climate controls normally are. Our project is fundamental to the conversion of the EV because the user interface is responsible for displaying all the vital information about the vehicle. The infotainment system will need to be completed refactored because of the conversion. Many of the features of the previous dashboard will not be displayed anymore (like RPM), and there are many more features we need to add (like battery percentage). Aside from displaying the vitals, the modern UI encourages interest in EV conversion and our software makes driving an enhanced experience.
 
-![Music Page](/images/projects/ui/music.png)
+![Car page](/images/projects/ui/car.png)
 
-Electrical-Mechanical: The Electrical-Mechanical team is in charge of preparing the car for the conversion from gasoline to electric powered. They have begun removing all gasoline parts and gathering the equipment necessary for the electric vehicle conversion.
+The UI team has worked diligently to use the best development and production tools that maximizes performance of our driver infotainment system. The current accomplishments include completing the UI skeleton on the infotainment display, and getting end-to-end two way communication with the systems communication. We are still working on developing the navigation page with the geomatics team, getting full functionality on the front end, and finally developing the dashboard display getting information from the electrical team. We are estimating that our project will be fully completed and ready to ship by the end of 2021! You can track our progress live at [https://relectric-ui.netlify.app](https://relectric-ui.netlify.app)
 
-Geomatics: The Geomatics team is working towards creating a framework for the geospatial properties of the car. The end goal for the team is to figure out how to measure the location and position of the vehicle at all times. They are also looking into using sensors that will enable the vehicle to have autonomous driving features.
-
-In the future, Relectric aims to show the vehicle off at various car shows and events to demonstrate the importance of electric vehicles in a carbon-neutral future. In the long term, our team will also be looking to start on a new project vehicle from scratch that will improve upon our current project.
+![Climate page](/images/projects/ui/climate.png)
