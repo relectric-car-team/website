@@ -4,14 +4,18 @@ image: "images/projects/distance-sensor/circuit.png"
 isProject: true
 ---
 
-Relectric’s first project is the transformation of a 1966 Volvo P220 into a fully functioning electric vehicle. The vehicle was donated to our team by local electric vehicle dealer GoElectric in support of Relectric’s research and development of electric vehicles. Currently Relectric’s four teams are working hard to get our vehicle in operation:
+Our goal is to create a network of sensors to help the driver better understand their surroundings. We are aiming to use both ultrasonic sensors and cameras to give both oral and visual cues to the driver.
 
-Business: The Business team is constantly working not only to maintain a healthy relationship between our current sponsors and the team but also to recruit potential sponsors. The team is also working on creating a master budget that will help keep Relectric on track financially. Additionally, the Business team is constantly managing all of Relectric’s social media.
+Our project is relevant to build because of the safety benefits. The resulting network will assist the driver by alerting them to any sudden changes in lane spacing, obstacles, and the location of other cars around them. These benefits allow the driver to remain relaxed and comfortable on the road.
 
-Software: The Software team is currently developing a user interface that will interact with the driver. To do this, they are utilizing Python and Raspberry Pi’s. They are also working on researching how to use motors and motor controllers that will be implemented in the vehicle. The Relectric team website is also being constantly managed by the Software team.
+This project will be installed around the perimeter of the car. Figure 1 shows the approximate placement of the sensors. The red and green letters correspond to when each sensor will be active. The ones with a red ‘R’ will be active when the car is in reverse and the sensors with a green ‘D’ will be active when the car is driving forward.
 
-Electrical-Mechanical: The Electrical-Mechanical team is in charge of preparing the car for the conversion from gasoline to electric powered. They have begun removing all gasoline parts and gathering the equipment necessary for the electric vehicle conversion.
+![Car locations](/images/projects/distance-sensor/placement.png)
 
-Geomatics: The Geomatics team is working towards creating a framework for the geospatial properties of the car. The end goal for the team is to figure out how to measure the location and position of the vehicle at all times. They are also looking into using sensors that will enable the vehicle to have autonomous driving features.
+This project is important to the conversion of electric vehicles because these features are common in all electric vehicles that can be bought on the market. If the goal is to turn a car into an electric vehicle then one must include all of the features.
 
-In the future, Relectric aims to show the vehicle off at various car shows and events to demonstrate the importance of electric vehicles in a carbon-neutral future. In the long term, our team will also be looking to start on a new project vehicle from scratch that will improve upon our current project.
+Our group has faced many challenges throughout this project. We were made up of mostly second year students so we had a lot of information to learn before we were able to start developing the project. Another challenge that we faced was the testing of our prototype. Meeting virtually meant that we had to test alone and forward our results to the rest of our team, limiting the sense of progress that comes with testing as a group. Had we been able to meet together the testing would have been much more engaging and motivating for the team.
+
+This year we had one major accomplishment. We built a prototype sensor using the microcontrollers and ultrasonic sensors that we purchased as a club. This prototype was tested and filters were added to clean up the data. This was a major milestone in the path to completing the project.
+
+![Prototype](/images/projects/distance-sensor/programmer.png)
