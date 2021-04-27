@@ -15,34 +15,34 @@ list:
     children:
       - name: EV Undergound
         logo: "images/sponsors/evu.png"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis mauris vitae tortor luctus molestie. Nulla tristique, purus vel sodales faucibus, nisi dui pharetra metus, at eleifend purus nisi ut massa. Integer erat turpis, consectetur dignissim"
+        desc: "The EV Undergound is an electric vehicle service shop, specializing in custom electric vehicle conversions, component sales, as well as service of OEM electric vehicles. Relectric works in the EV Underground space, and the EVU frequently provides support, advice, and training to our team members."
         URL: "https://www.evunderground.ca"
 
   - category: "Silver"
     children:
       - name: GoElectric YYC
         logo: "images/sponsors/goelectric.png"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis mauris vitae tortor luctus molestie. Nulla tristique, purus vel sodales faucibus, nisi dui pharetra metus, at eleifend purus nisi ut massa. Integer erat turpis, consectetur dignissim"
+        desc: "GoElectric Calgary has the widest selection of certified, previously enjoyed Electric Vehicles in Alberta. GoElectric's support has been invaluable to Relectric in establishing the club, and having a community of EV enthusiasts to rely on."
         URL: "https://goelectricyyc.com/"
 
   - category: "Bronze"
     children:
       - name: Rapid3D
         logo: "images/sponsors/rapid3d.png"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis mauris vitae tortor luctus molestie. Nulla tristique, purus vel sodales faucibus, nisi dui pharetra metus, at eleifend purus nisi ut massa. Integer erat turpis, consectetur dignissim"
+        desc: "Rapid 3D Ltd is Western Canada's leading supplier of 3D Products and Services based in Calgary, Alberta. Rapid 3D Ltd specializes in the use and application of advanced 3D scanning technologies. With Rapid3D's support in 3D scanning our car, Relectric has been able to continue working remotely on component design projects."
         URL: "https://www.rapid3d.ca"
 
   - category: "Design Tools"
     children:
       - name: Altium
         logo: "images/sponsors/altium.png"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis mauris vitae tortor luctus molestie. Nulla tristique, purus vel sodales faucibus, nisi dui pharetra metus, at eleifend purus nisi ut massa. Integer erat turpis, consectetur dignissim"
+        desc: "Altium Designer is a computer-aided design software for creating printed circuit boards. Using Altium Designer, Relectric has been able to make custom circuit boards for various uses, such motor/battery controllers as well as CAN network bridges."
         URL: "https://www.altium.com"
       - name: SolidWorks
         logo: "images/sponsors/solidworks.png"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis mauris vitae tortor luctus molestie. Nulla tristique, purus vel sodales faucibus, nisi dui pharetra metus, at eleifend purus nisi ut massa. Integer erat turpis, consectetur dignissim"
+        desc: "SolidWorks is a solid modeling computer-aided design and computer-aided engineering computer program. SolidWorks allows Relectric to take 3D components from conception to fabrication."
         URL: "http://www.solidworks.com"
       - name: Altair
         logo: "images/sponsors/altair.png"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis mauris vitae tortor luctus molestie. Nulla tristique, purus vel sodales faucibus, nisi dui pharetra metus, at eleifend purus nisi ut massa. Integer erat turpis, consectetur dignissim"
+        desc: "Altair is a global technology company that provides software and cloud solutions in the areas of simulation, high-performance computing (HPC), and artificial intelligence (AI). Altair's support enables Relectric to design and test using RF technologies."
         URL: "https://www.altair.com"
