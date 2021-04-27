@@ -4,11 +4,12 @@ list:
     children:
       - name: Shell Canada
         logo: "images/sponsors/shell.png"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis mauris vitae tortor luctus molestie. Nulla tristique, purus vel sodales faucibus, nisi dui pharetra metus, at eleifend purus nisi ut massa. Integer erat turpis, consectetur dignissim"
+        desc: "Shell is an international energy company with expertise in the exploration, production, refining and marketing of oil and natural gas, and the manufacturing and marketing of chemicals. Shell's generous contributions have allowed Relectric to obtain the parts needed for the E-Volvo build."
         URL: "https://www.shell.com"
+
       - name: Schulich School of Engineering
         logo: "images/sponsors/schulich.png"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis mauris vitae tortor luctus molestie. Nulla tristique, purus vel sodales faucibus, nisi dui pharetra metus, at eleifend purus nisi ut massa. Integer erat turpis, consectetur dignissim"
+        desc: "The Schulich School of Engineering is home to the Relectric Car Team at the University of Calgary. Relectric was first started as a club with the support of Schulich and their contributions have allowed us to obtain our first car for conversion."
         URL: "https://schulich.ucalgary.ca/"
 
   - category: "Gold"
