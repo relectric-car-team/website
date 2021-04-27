@@ -1,0 +1,13 @@
+---
+title: "CANBus"
+image: "images/projects/canbus/pcb.png"
+isProject: true
+---
+
+The CANBUS team is primarily responsible for developing the hardware and software that allows for a CANBUS network to exist in the vehicle. The network is necessary in order to facilitate communication between the different systems in the vehicle, from the Motor Controller, to the Battery Management system, all the way down to the parking system. One of the core tenets of the CANBUS network is its ability to relay vital performance metrics to the driver experience system, such as vehicle speed and battery level, as well as safety critical messages that would alert the driver to any failures that would require the vehicle to stop. Moreover, the CANBus network also allows for the wiring harness to be simplified, as all components can be wired directly into the two wire network, as opposed to a point-to-point wiring harness that connects each sensor and device individually.
+
+To achieve these objectives, the CANBus team has been working on two main projects. The first one is the development of an SPI to CAN bridge, that converts incoming CAN signals into SPI, which is a data format that the Pi is able to process. The two primary microcontrollers used for this project are the MCP2551 CAN Transceiver and MCP2515 CAN controller.
+
+This board is a vital link in our CANBus network, as it allows for the driver experience system to take in and process essential and non-essential data, whether it be the speed of the motor controller or the proximity to the wall when parking.
+
+The second main project the team has worked on so far is the development of a CAN Transmitter that utilizes the PICF27Q84 MCU from Microchip. Primarily, it has been used to interface with an ultrasonic sensor to measure the distance, which will then be transmitted over CAN to be processed by the Driver Experience system. The aim is to place a few of these sensors along with their respective transmitters in strategic locations around the car, to assist with parking and lane changing. However, the ultimate goal is to utilize the PIC MCU as a general purpose CAN transmitter, that can take in any data over a standard communication interface, such as UART, I2C or SPI, and relay that information over CAN. In this way, a large number of peripherals that are not limited to ultrasonic sensors can be added, without adding in extra complexity to the wiring harness. As such, the vehicle can continually incorporate modern automotive features without compromising on the core functionality of the vehicle, while also not requiring a rebuild of key systems.
