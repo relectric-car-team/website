@@ -1,0 +1,43 @@
+backend:
+    name: git-gateway
+    branch: master
+media_folder: "static/images"
+public_folder: "/images"
+collections:
+  - name: blog
+    label: "Blog"
+    folder: "content/blog"
+    create: true
+    slug: "{{slug}}"
+    filter: {field: "type", value: "blog"}
+    fields:
+      - {label: "Type", name: "type", widget: "hidden", default: "blog"} 
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: cars
+    label: "Cars"
+    folder: "content/cars"
+    create: true
+    slug: "{{slug}}"
+    filter: {field: "isCar", value: true}
+    fields:
+      - {label: "Car", name: "isCar", widget: "hidden", default: true} 
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: projects
+    label: "Projects"
+    folder: "content/projects"
+    create: true
+    slug: "{{slug}}"
+    filter: {field: "isProject", value: true}
+    fields:
+      - {label: "Project", name: "isProject", widget: "hidden", default: true} 
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+
