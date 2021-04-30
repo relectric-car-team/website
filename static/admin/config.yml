@@ -8,6 +8,8 @@ collections:
   - name: blog
     label: "Blog"
     folder: "content/blog"
+    editor:
+      preview: false
     create: true
     slug: "{{slug}}"
     filter: {field: "type", value: "blog"}
@@ -21,6 +23,8 @@ collections:
   - name: cars
     label: "Cars"
     folder: "content/cars"
+    editor:
+      preview: false
     create: true
     slug: "{{slug}}"
     filter: {field: "isCar", value: true}
@@ -32,6 +36,8 @@ collections:
   - name: projects
     label: "Projects"
     folder: "content/projects"
+    editor:
+      preview: false
     create: true
     slug: "{{slug}}"
     filter: {field: "isProject", value: true}
