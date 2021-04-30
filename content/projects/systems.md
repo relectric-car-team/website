@@ -1,6 +1,6 @@
 ---
 title: "Systems Communication"
-image: "images/projects/systems/systemsimage.png"
+image: "/images/projects/systems/systemsimage.png"
 isProject: true
 ---
 

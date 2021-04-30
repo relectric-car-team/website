@@ -1,6 +1,6 @@
 ---
 title: "E-Volvo"
-image: "images/gallery/IMG_7536.jpg"
+image: "/images/gallery/IMG_7536.jpg"
 isCar: true
 ---
 

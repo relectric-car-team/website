@@ -1,6 +1,6 @@
 ---
 title: "Interior Console"
-image: "images/projects/interior-console/dashboard-scan.png"
+image: "/images/projects/interior-console/dashboard-scan.png"
 isProject: true
 ---
 

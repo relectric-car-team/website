@@ -1,6 +1,6 @@
 ---
 title: "Spatial Distance Sensors"
-image: "images/projects/distance-sensor/circuit.png"
+image: "/images/projects/distance-sensor/circuit.png"
 isProject: true
 ---
 
