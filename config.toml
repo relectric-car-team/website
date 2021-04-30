@@ -40,30 +40,35 @@ summaryLength = "10"
   weight = 2
 
   [[menu.main]]
+  name = "Blog"
+  URL = "blog"
+  weight = 3
+
+  [[menu.main]]
   name = "Team"
   url = "team"
-  weight = 3
+  weight = 4
 
   [[menu.main]]
   name = "Sponsors"
   URL = "sponsors"
-  weight = 4
+  weight = 5
 
   [[menu.main]]
   name = "Gallery"
   URL = "gallery"
-  weight = 5
+  weight = 6
 
   [[menu.main]]
   name = "Contact"
   URL = "contact"
-  weight = 6
+  weight = 7
 
 # Uncomment for applications
-  # [[menu.main]]
-  # name = "Apply"
-  # URL = "https://docs.google.com/forms/d/e/1FAIpQLSd0fhEgMMRkwFk6SxxLVLw8N55sILPsz8MT_bkKkLnMKYwAAg/viewform"
-  # weight = 7
+#   [[menu.main]]
+#   name = "Apply"
+#   URL = "https://docs.google.com/forms/d/e/1FAIpQLSd0fhEgMMRkwFk6SxxLVLw8N55sILPsz8MT_bkKkLnMKYwAAg/viewform"
+#   weight = 8
 
 
 [params]
