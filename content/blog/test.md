@@ -1,10 +1,8 @@
 ---
 title: "Test Blog Post"
 date: 2019-05-12T12:14:34+06:00
-description: "Learn more about the Relectric Car Team"
 image: "images/about.jpg"
 author: "Ratik"
-imageBottom: "images/about-bottom.jpg"
 type: "blog"
 ---
 

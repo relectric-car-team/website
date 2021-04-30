@@ -4,8 +4,10 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
-  {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+  <meta name="description"
+    content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+  {{ with .Site.Params.author }}
+  <meta name="author" content="{{ . }}">{{ end }}
   {{ hugo.Generator }}
 
   {{ range .Site.Params.plugins.css }}
@@ -13,14 +15,14 @@
   {{ end }}
 
   {{ if .Site.Params.debug }}
-    {{ $styles := resources.Get "css/style.css" }}
-    <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
+  {{ $styles := resources.Get "css/style.css" }}
+  <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
   {{ else }}
-    {{ $styles := resources.Get "css/style.css" | minify }}
-    <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
+  {{ $styles := resources.Get "css/style.css" | minify }}
+  <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
   {{ end }}
 
-  <link rel="shortcut icon" href="{{ "favicon.ico" | absURL }}" type="image/x-icon">
-  <link rel="icon" href="{{ "favicon.ico" | absURL }} " type="image/x-icon">
-
+  <link rel="shortcut icon" href="{{ " favicon.ico" | absURL }}" type="image/x-icon">
+  <link rel="icon" href="{{ " favicon.ico" | absURL }} " type=" image/x-icon">
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
