@@ -3,7 +3,7 @@ backend:
     branch: master
 media_folder: "static/images"
 public_folder: "/images"
-logo: https://teamrelectric.ca/images/logo.svg
+logo_url: https://teamrelectric.ca/images/logo.svg
 collections:
   - name: blog
     label: "Blog"
