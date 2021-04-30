@@ -1,6 +1,6 @@
 ---
 title: "CANBus"
-image: "images/projects/canbus/pcb.png"
+image: "/images/projects/canbus/pcb.png"
 isProject: true
 ---
 

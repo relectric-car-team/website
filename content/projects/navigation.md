@@ -1,6 +1,6 @@
 ---
 title: "Navigation"
-image: "images/projects/navigation/navit.png"
+image: "/images/projects/navigation/navit.png"
 isProject: true
 ---
 

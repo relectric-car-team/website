@@ -1,6 +1,6 @@
 ---
 title: "Driver Infotainment"
-image: "images/projects/ui/home.png"
+image: "/images/projects/ui/home.png"
 isProject: true
 ---
 

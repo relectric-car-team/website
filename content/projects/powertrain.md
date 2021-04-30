@@ -1,6 +1,6 @@
 ---
 title: "Powertrain"
-image: "images/projects/powertrain/motorremoval.jpg"
+image: "/images/projects/powertrain/motorremoval.jpg"
 isProject: true
 ---
 

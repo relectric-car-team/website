@@ -1,6 +1,6 @@
 ---
 title: "Tesla Cell Tap Board"
-image: "images/projects/tesla-cell-tap/pcb.png"
+image: "/images/projects/tesla-cell-tap/pcb.png"
 isProject: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Test Blog Post"
 date: 2019-05-12T12:14:34+06:00
-image: "images/about.jpg"
+image: "/images/about.jpg"
 author: "Ratik"
 type: "blog"
 ---
