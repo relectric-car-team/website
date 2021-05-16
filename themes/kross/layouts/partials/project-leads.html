@@ -8,7 +8,7 @@
       {{ range .Site.Data.team.projectleads }}
       <div class="col-md-4 col-sm-6 mb-4 mb-md-0 team-card">
         <div class="card text-center">
-          <div style="background-image: url('{{ .image | absURL }}')" class="card-img-top"></div>
+          <img class="card-img member-pro-img" src="{{ .image | absURL }}">
           <div class="card-body">
             <h4 class="card-title">{{ .name }}</h4>
             <p class="text-color font-secondary">{{ .role }}</p>
