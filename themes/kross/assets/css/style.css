@@ -1107,6 +1107,12 @@ blockquote {
   object-fit: cover;
 }
 
+.member-pro-img {
+  width: 100%;
+  height: 25vh;
+  object-fit: cover;
+}
+
 /* Mobile-specific */
 @media screen and (max-width: 600px) {
 
