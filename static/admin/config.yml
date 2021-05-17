@@ -52,7 +52,6 @@ collections:
     editor:
       preview: false
     create: false
-    filter: {field: "datatype", value: "ourteam"}
     fields:
       - label: Executive Leads"
         name: "executiveleads"
