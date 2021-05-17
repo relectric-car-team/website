@@ -46,5 +46,21 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
-
+  - name: team
+    label: "Our Team"
+    folder: "data"
+    editor:
+      preview: false
+    create: false
+    filter: {field: "datatype", value: "ourteam"}
+    fields:
+      - label: Executive Leads"
+        name: "executiveleads"
+        widget: object
+        fields:
+          - {label: "Name", name: "name", widget: "string"}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Role", name: "role", widget: "string"}
+          - {label: "Linkedin", name: "linkedin", widget: "string"}
+          - {label: "Bio", name: "bio", widget: "text"}
 
