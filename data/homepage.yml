@@ -21,11 +21,11 @@ about:
 
 # Applications
 applications:
-  enable: false
-  content: "We're recruiting for the 2020 - 2021 year! Interested in joining us? Fill out the form below and we'll be in touch!"
+  enable: true
+  content: "We're recruiting for the summer! Interested in joining us? Fill out the form below and we'll be in touch!"
   button:
     text: "Apply Now"
-    URL: "https://docs.google.com/forms/d/e/1FAIpQLSd0fhEgMMRkwFk6SxxLVLw8N55sILPsz8MT_bkKkLnMKYwAAg/viewform"
+    URL: "https://docs.google.com/forms/d/e/1FAIpQLSeJH97rZT-xqbo_uquMUQsBPJHaUNZx_4O-xJbtgHHf8kf8HQ/viewform"
 
 # skill (unused)
 skill:
