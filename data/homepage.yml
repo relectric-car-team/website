@@ -22,7 +22,7 @@ about:
 # Applications
 applications:
   enable: true
-  content: "We're recruiting for the summer for our Business Team! Interested in joining us? Fill out the form below and we'll be in touch!"
+  content: "We're recruiting for all teams for the 2021-2022 season! Interested in joining us? Fill out the form below and we'll be in touch!"
   button:
     text: "Apply Now"
     URL: "https://docs.google.com/forms/d/e/1FAIpQLSeJH97rZT-xqbo_uquMUQsBPJHaUNZx_4O-xJbtgHHf8kf8HQ/viewform"
