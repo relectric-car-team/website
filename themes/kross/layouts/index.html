@@ -50,6 +50,26 @@
   </section>
   <!-- /hero area -->
 
+  {{ if .Site.Data.homepage.applications.enable }}
+  <!-- Applications -->
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 mx-auto text-center">
+          {{ with .Site.Data.homepage.applications }}
+          <h2 style="font-weight: 700; color: #D62859">{{ .heading }}</h2>
+          <p class="font-secondary lead text-dark">{{ .content | markdownify }}</p>
+          {{ with .button }}
+          <a style="color: #FFFFFF; background-color: #D62859;" href="{{ .URL | absURL }}" class="btn btn-transparent">{{ .text }}</a>
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /about -->
+  {{ end }}
+
   {{ if .Site.Data.homepage.about.enable }}
   <!-- about -->
   <section class="section">
@@ -68,26 +88,6 @@
   </section>
   <!-- /about -->
   {{ end }}
-
-  {{ if .Site.Data.homepage.applications.enable }}
-  <!-- Applications -->
-  <section class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-10 mx-auto text-center">
-          {{ with .Site.Data.homepage.applications }}
-          <p class="font-secondary lead text-dark">{{ .content | markdownify }}</p>
-          {{ with .button }}
-          <a href="{{ .URL | absURL }}" class="btn btn-transparent">{{ .text }}</a>
-          {{ end }}
-          {{ end }}
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- /about -->
-  {{ end }}
-
 
   {{ if .Site.Data.homepage.skill.enable }}
   <!-- skills -->
