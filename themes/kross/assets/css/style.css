@@ -1113,6 +1113,10 @@ blockquote {
   object-fit: cover;
 }
 
+strong {
+  font-weight: 600;
+}
+
 /* Mobile-specific */
 @media screen and (max-width: 600px) {
 
