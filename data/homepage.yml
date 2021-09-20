@@ -14,7 +14,7 @@ banner:
 # about
 about:
   enable: true
-  content: "Our mission is to raise awareness about the adverse effects of carbon emissions by converting existing gasoline cars into high quality, affordable electric vehicles"
+  content: "Our mission is to raise awareness about the adverse effects of carbon emissions by converting existing gasoline cars into high quality, affordable electric vehicles. From designing our own infotainment system, to working on park assist and telemetry, to designing and manufacturing battery boxes for tesla batteries, we provide experience to students in all disciplines."
   button:
     text: "Learn More"
     URL: "/about"
@@ -23,7 +23,7 @@ about:
 applications:
   enable: true
   heading: "Now Recruiting"
-  content: "We are currently recruiting for mechanical, electrical, software, geomatics, and business positions for the 2021-2022 season! Interested? **Join us** in revolutionizing the future of sustainable transport and the electric energy sector! Application are open until **October 1st at 11:59pm**."
+  content: "We are currently recruiting for mechanical, electrical, software, geomatics, and business positions for the 2021-2022 season! \n\n **Join us in revolutionizing the future of sustainable transport and the electric energy sector**! \n\nApplication Deadline: **October 1st** at 11:59pm."
   button:
     text: "Apply Now"
     URL: "https://docs.google.com/forms/d/e/1FAIpQLSeJH97rZT-xqbo_uquMUQsBPJHaUNZx_4O-xJbtgHHf8kf8HQ/viewform"
