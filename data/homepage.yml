@@ -21,7 +21,7 @@ about:
 
 # Applications
 applications:
-  enable: true
+  enable: false
   heading: "Now Recruiting"
   content: "We are currently recruiting for mechanical, electrical, software, geomatics, and business positions for the 2021-2022 season! \n\n **Join us in revolutionizing the future of sustainable transport and the electric energy sector**! \n\nApplication Deadline: **October 1st** at 11:59pm."
   button:
