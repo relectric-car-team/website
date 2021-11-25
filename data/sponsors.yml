@@ -2,6 +2,11 @@
 list:
   - category: "Platinum"
     children:
+      - name: EV Undergound
+        logo: "images/sponsors/evu.png"
+        desc: "The EV Undergound is an electric vehicle service shop, specializing in custom electric vehicle conversions, component sales, as well as service of OEM electric vehicles. Relectric works in the EV Underground space, and the EVU frequently provides support, advice, and training to our team members."
+        URL: "https://www.evunderground.ca"
+        
       - name: Shell Canada
         logo: "images/sponsors/shell.png"
         desc: "Shell is an international energy company with expertise in the exploration, production, refining and marketing of oil and natural gas, and the manufacturing and marketing of chemicals. Shell's generous contributions have allowed Relectric to obtain the parts needed for the E-Volvo build."
@@ -12,13 +17,9 @@ list:
         desc: "The Schulich School of Engineering is home to the Relectric Car Team at the University of Calgary. Relectric was first started as a club with the support of Schulich and their contributions have allowed us to obtain our first car for conversion."
         URL: "https://schulich.ucalgary.ca/"
 
-  - category: "Gold"
-    children:
-      - name: EV Undergound
-        logo: "images/sponsors/evu.png"
-        desc: "The EV Undergound is an electric vehicle service shop, specializing in custom electric vehicle conversions, component sales, as well as service of OEM electric vehicles. Relectric works in the EV Underground space, and the EVU frequently provides support, advice, and training to our team members."
-        URL: "https://www.evunderground.ca"
-
+  # - category: "Gold"
+  #   children:
+      
   - category: "Silver"
     children:
       - name: GoElectric YYC
