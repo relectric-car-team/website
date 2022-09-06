@@ -21,12 +21,12 @@ about:
 
 # Applications
 applications:
-  enable: false
+  enable: true
   heading: "Now Recruiting"
-  content: "We are currently recruiting for mechanical, electrical, software, geomatics, and business positions for the 2021-2022 season! \n\n **Join us in revolutionizing the future of sustainable transport and the electric energy sector**! \n\nApplication Deadline: **October 1st** at 11:59pm."
+  content: "We are currently recruiting for mechanical, electrical, software, geomatics, and business positions for the 2022-2023 season! \n\n **Join us in revolutionizing the future of sustainable transport and the electric energy sector**! \n\nApplication Deadline: **September 16th** at 11:59pm."
   button:
     text: "Apply Now"
-    URL: "https://docs.google.com/forms/d/e/1FAIpQLSeJH97rZT-xqbo_uquMUQsBPJHaUNZx_4O-xJbtgHHf8kf8HQ/viewform"
+    URL: "https://forms.gle/5rF1mermMhErszBC7"
 
 # skill (unused)
 skill:
