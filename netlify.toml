@@ -25,3 +25,9 @@
 
 [context.next.environment]
     HUGO_ENABLEGITINFO = "true"
+
+[[redirects]]
+  from = "https://teamrelectric.ca/qr"
+  to = "https://teamrelectric.ca/"
+  status = 302
+  force = true
