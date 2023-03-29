@@ -6,7 +6,7 @@ list:
         logo: "images/sponsors/evu.png"
         desc: "The EV Undergound is an electric vehicle service shop, specializing in custom electric vehicle conversions, component sales, as well as service of OEM electric vehicles. Relectric works in the EV Underground space, and the EVU frequently provides support, advice, and training to our team members."
         URL: "https://www.evunderground.ca"
-        
+
       - name: Shell Canada
         logo: "images/sponsors/shell.png"
         desc: "Shell is an international energy company with expertise in the exploration, production, refining and marketing of oil and natural gas, and the manufacturing and marketing of chemicals. Shell's generous contributions have allowed Relectric to obtain the parts needed for the E-Volvo build."
@@ -19,7 +19,7 @@ list:
 
   # - category: "Gold"
   #   children:
-      
+
   - category: "Silver"
     children:
       - name: GoElectric YYC
@@ -33,6 +33,10 @@ list:
         logo: "images/sponsors/rapid3d.png"
         desc: "Rapid 3D Ltd is Western Canada's leading supplier of 3D Products and Services based in Calgary, Alberta. Rapid 3D Ltd specializes in the use and application of advanced 3D scanning technologies. With Rapid3D's support in 3D scanning our car, Relectric has been able to continue working remotely on component design projects."
         URL: "https://www.rapid3d.ca"
+      - name: Dave Moore Transport and Recovery
+        logo: "images/sponsors/dmtr.png"
+        desc: "Dave Moore Transport is working hard at becoming the premier provider of roadside assistance and heavy duty towing services in the Calgary and surrounding areas. From heavy-duty towing and hauling to accident recovery, Dave Moore Transport Heavy Towing is the premier towing and hauling service in the Calgary and surrounding areas."
+        URL: "https://www.davemooretransport.com"
 
   - category: "Design Tools"
     children:
